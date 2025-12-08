@@ -1,0 +1,35 @@
+{
+    "github": {
+        "repository_url": "",
+        "branch": "main",
+        "commit_message_template": "Update presidential speeches data - {timestamp}",
+        "auto_push": true
+    },
+    "presidents": [
+        "Lee_Seung_Man",
+        "Yun_Bo_Seon",
+        "Park_Chung_Hee",
+        "Choi_Kyu_Hah",
+        "Chun_Doo_Hwan",
+        "Roh_Tae_Woo",
+        "Kim_Young_Sam",
+        "Kim_Dae_Jung",
+        "Roh_Moo_Hyun",
+        "Lee_Myung_Bak",
+        "Park_Geun_Hye",
+        "Moon_Jae_In"
+    ],
+    "scraping": {
+        "retry_on_failure": true,
+        "max_retries": 3,
+        "delay_between_scripts": 2,
+        "save_logs": true,
+        "log_file": "scraping_log.txt"
+    },
+    "execution": {
+        "run_scrap1": true,
+        "run_scrap2": true,
+        "resume_capability": true,
+        "state_file": ".scraping_state.json"
+    }
+}

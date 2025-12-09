@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "president": "Lee Seung Man (이승만)",
+    "analyzer": "Komoran",
+    "stopwords_filtering": true,
+    "total_speeches": 1021,
+    "execution_time_seconds": 27.07,
+    "speeches_per_second": 37.71,
+    "analysis_date": "2025-12-09"
+  },
+  "statistics": {
+    "total_nouns_extracted": 183526,
+    "unique_nouns": 10163,
+    "average_nouns_per_speech": 179.8,
+    "stopwords_count": 75
+  },
+  "top_50_words": [
+    {
+      "rank": 1,
+      "word": "사람",
+      "frequency": 4267,
+      "percentage": 2.33
+    },
+    {
+      "rank": 2,
+      "word": "정부",
+      "frequency": 2336,
+      "percentage": 1.27
+    },
+    {
+      "rank": 3,
+      "word": "나라",
+      "frequency": 1792,
+      "percentage": 0.98
+    },
+    {
+      "rank": 4,
+      "word": "대통령",
+      "frequency": 1606,
+      "percentage": 0.88
+    },
+    {
+      "rank": 5,
+      "word": "세계",
+      "frequency": 1509,
+      "percentage": 0.82
+    },
+    {
+      "rank": 6,
+      "word": "한국",
+      "frequency": 1370,
+      "percentage": 0.75
+    },
+    {
+      "rank": 7,
+      "word": "미국",
+      "frequency": 1337,
+      "percentage": 0.73
+    },
+    {
+      "rank": 8,
+      "word": "자유",
+      "frequency": 1313,
+      "percentage": 0.72
+    },
+    {
+      "rank": 9,
+      "word": "국가",
+      "frequency": 1266,
+      "percentage": 0.69
+    },
+    {
+      "rank": 10,
+      "word": "생각",
+      "frequency": 1246,
+      "percentage": 0.68
+    },
+    {
+      "rank": 11,
+      "word": "우리나라",
+      "frequency": 1193,
+      "percentage": 0.65
+    },
+    {
+      "rank": 12,
+      "word": "담화",
+      "frequency": 906,
+      "percentage": 0.49
+    },
+    {
+      "rank": 13,
+      "word": "이승만",
+      "frequency": 887,
+      "percentage": 0.48
+    },
+    {
+      "rank": 14,
+      "word": "민중",
+      "frequency": 864,
+      "percentage": 0.47
+    },
+    {
+      "rank": 15,
+      "word": "박사",
+      "frequency": 859,
+      "percentage": 0.47
+    },
+    {
+      "rank": 16,
+      "word": "문제",
+      "frequency": 856,
+      "percentage": 0.47
+    },
+    {
+      "rank": 17,
+      "word": "민족",
+      "frequency": 822,
+      "percentage": 0.45
+    },
+    {
+      "rank": 18,
+      "word": "국민",
+      "frequency": 817,
+      "percentage": 0.45
+    },
+    {
+      "rank": 19,
+      "word": "목적",
+      "frequency": 778,
+      "percentage": 0.42
+    },
+    {
+      "rank": 20,
+      "word": "전쟁",
+      "frequency": 740,
+      "percentage": 0.4
+    },
+    {
+      "rank": 21,
+      "word": "동포",
+      "frequency": 719,
+      "percentage": 0.39
+    },
+    {
+      "rank": 22,
+      "word": "일본",
+      "frequency": 711,
+      "percentage": 0.39
+    },
+    {
+      "rank": 23,
+      "word": "통일",
+      "frequency": 696,
+      "percentage": 0.38
+    },
+    {
+      "rank": 24,
+      "word": "노력",
+      "frequency": 686,
+      "percentage": 0.37
+    },
+    {
+      "rank": 25,
+      "word": "공산",
+      "frequency": 656,
+      "percentage": 0.36
+    },
+    {
+      "rank": 26,
+      "word": "결심",
+      "frequency": 635,
+      "percentage": 0.35
+    },
+    {
+      "rank": 27,
+      "word": "해서",
+      "frequency": 622,
+      "percentage": 0.34
+    },
+    {
+      "rank": 28,
+      "word": "경제",
+      "frequency": 620,
+      "percentage": 0.34
+    },
+    {
+      "rank": 29,
+      "word": "국회",
+      "frequency": 617,
+      "percentage": 0.34
+    },
+    {
+      "rank": 30,
+      "word": "평화",
+      "frequency": 598,
+      "percentage": 0.33
+    },
+    {
+      "rank": 31,
+      "word": "공산당",
+      "frequency": 591,
+      "percentage": 0.32
+    },
+    {
+      "rank": 32,
+      "word": "가지",
+      "frequency": 583,
+      "percentage": 0.32
+    },
+    {
+      "rank": 33,
+      "word": "정신",
+      "frequency": 581,
+      "percentage": 0.32
+    },
+    {
+      "rank": 34,
+      "word": "보호",
+      "frequency": 573,
+      "percentage": 0.31
+    },
+    {
+      "rank": 35,
+      "word": "동안",
+      "frequency": 557,
+      "percentage": 0.3
+    },
+    {
+      "rank": 36,
+      "word": "발전",
+      "frequency": 552,
+      "percentage": 0.3
+    },
+    {
+      "rank": 37,
+      "word": "민주",
+      "frequency": 550,
+      "percentage": 0.3
+    },
+    {
+      "rank": 38,
+      "word": "정당",
+      "frequency": 526,
+      "percentage": 0.29
+    },
+    {
+      "rank": 39,
+      "word": "우방",
+      "frequency": 516,
+      "percentage": 0.28
+    },
+    {
+      "rank": 40,
+      "word": "주의",
+      "frequency": 488,
+      "percentage": 0.27
+    },
+    {
+      "rank": 41,
+      "word": "원조",
+      "frequency": 488,
+      "percentage": 0.27
+    },
+    {
+      "rank": 42,
+      "word": "주장",
+      "frequency": 487,
+      "percentage": 0.27
+    },
+    {
+      "rank": 43,
+      "word": "이번",
+      "frequency": 481,
+      "percentage": 0.26
+    },
+    {
+      "rank": 44,
+      "word": "물건",
+      "frequency": 475,
+      "percentage": 0.26
+    },
+    {
+      "rank": 45,
+      "word": "니다",
+      "frequency": 470,
+      "percentage": 0.26
+    },
+    {
+      "rank": 46,
+      "word": "민국",
+      "frequency": 451,
+      "percentage": 0.25
+    },
+    {
+      "rank": 47,
+      "word": "침략",
+      "frequency": 447,
+      "percentage": 0.24
+    },
+    {
+      "rank": 48,
+      "word": "한인",
+      "frequency": 440,
+      "percentage": 0.24
+    },
+    {
+      "rank": 49,
+      "word": "사실",
+      "frequency": 439,
+      "percentage": 0.24
+    },
+    {
+      "rank": 50,
+      "word": "공보실",
+      "frequency": 438,
+      "percentage": 0.24
+    }
+  ],
+  "speech_details": [
+    {
+      "title": "대통령 취임사(大統領就任辭)",
+      "nouns_count": 346,
+      "unique_nouns": 235,
+      "text_length": 3110
+    },
+    {
+      "title": "이승만 취임선서",
+      "nouns_count": 4,
+      "unique_nouns": 4,
+      "text_length": 12
+    },
+    {
+      "title": "민족이 원하는 길을 따를 결심, 국무총리 인준 부결에 대하여",
+      "nouns_count": 109,
+      "unique_nouns": 71,
+      "text_length": 1063
+    },
+    {
+      "title": "미급점(未及點) 육성하라",
+      "nouns_count": 64,
+      "unique_nouns": 48,
+      "text_length": 581
+    },
+    {
+      "title": "전민족에게 충고함",
+      "nouns_count": 126,
+      "unique_nouns": 98,
+      "text_length": 997
+    },
+    {
+      "title": "함께 뭉쳐서 자강전진(自疆前進) 외모(外侮)막자 (해방 3주년 기념사)",
+      "nouns_count": 50,
+      "unique_nouns": 49,
+      "text_length": 339
+    },
+    {
+      "title": "대한민국 정부수립과 우리의 각오",
+      "nouns_count": 709,
+      "unique_nouns": 405,
+      "text_length": 5921
+    },
+    {
+      "title": "정권 이양문제에 대하여",
+      "nouns_count": 61,
+      "unique_nouns": 55,
+      "text_length": 551
+    },
+    {
+      "title": "북한정권(北韓政權)에 대하여",
+      "nouns_count": 130,
+      "unique_nouns": 83,
+      "text_length": 1002
+    },
+    {
+      "title": "미소(美蘇) 양군 철퇴문제에 대하여",
+      "nouns_count": 71,
+      "unique_nouns": 60,
+      "text_length": 516
+    }
+  ],
+  "stopwords_used": [
+    "가",
+    "간",
+    "같이",
+    "거기",
+    "것",
+    "과",
+    "구",
+    "그",
+    "그것",
+    "그러나",
+    "그리고",
+    "까지",
+    "께",
+    "나",
+    "내일",
+    "너",
+    "년",
+    "누구",
+    "는",
+    "도",
+    "되다",
+    "등",
+    "때",
+    "또",
+    "또한",
+    "로",
+    "를",
+    "만",
+    "말",
+    "무엇",
+    "및",
+    "바",
+    "보다",
+    "부터",
+    "사",
+    "삼",
+    "수",
+    "십",
+    "아니다",
+    "어디",
+    "어떻게",
+    "어제",
+    "언제",
+    "없다",
+    "에",
+    "에게",
+    "에서",
+    "여기",
+    "오",
+    "오늘",
+    "와",
+    "우리",
+    "월",
+    "육",
+    "으로",
+    "은",
+    "을",
+    "의",
+    "이",
+    "이것",
+    "이다",
+    "일",
+    "있다",
+    "저",
+    "저것",
+    "저기",
+    "점",
+    "중",
+    "지금",
+    "처럼",
+    "칠",
+    "팔",
+    "하다",
+    "하지만",
+    "한테"
+  ]
+}

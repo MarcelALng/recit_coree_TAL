@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "total_speeches_analyzed": 100,
+    "stopwords_count": 74,
+    "analysis_date": "2025-12-09"
+  },
+  "results": [
+    {
+      "analyzer": "Hannanum",
+      "with_stopwords_filter": false,
+      "execution_time_seconds": 6.11,
+      "total_nouns": 25642,
+      "unique_nouns": 6943,
+      "top_10_words": [
+        [
+          "것",
+          1751
+        ],
+        [
+          "우리",
+          783
+        ],
+        [
+          "바",
+          308
+        ],
+        [
+          "정부",
+          278
+        ],
+        [
+          "수",
+          245
+        ],
+        [
+          "나",
+          215
+        ],
+        [
+          "이",
+          193
+        ],
+        [
+          "중",
+          193
+        ],
+        [
+          "사람",
+          167
+        ],
+        [
+          "일",
+          158
+        ]
+      ]
+    },
+    {
+      "analyzer": "Hannanum",
+      "with_stopwords_filter": true,
+      "execution_time_seconds": 5.22,
+      "total_nouns": 18745,
+      "unique_nouns": 6668,
+      "top_10_words": [
+        [
+          "정부",
+          278
+        ],
+        [
+          "사람",
+          167
+        ],
+        [
+          "미국",
+          116
+        ],
+        [
+          "세계",
+          107
+        ],
+        [
+          "우리나라",
+          91
+        ],
+        [
+          "나라",
+          86
+        ],
+        [
+          "문제",
+          78
+        ],
+        [
+          "국회",
+          77
+        ],
+        [
+          "민족",
+          75
+        ],
+        [
+          "공보처",
+          75
+        ]
+      ]
+    },
+    {
+      "analyzer": "Kkma",
+      "with_stopwords_filter": false,
+      "execution_time_seconds": 23.92,
+      "total_nouns": 20176,
+      "unique_nouns": 6759,
+      "top_10_words": [
+        [
+          "우리",
+          151
+        ],
+        [
+          "이",
+          117
+        ],
+        [
+          "대통령",
+          95
+        ],
+        [
+          "바",
+          85
+        ],
+        [
+          "일",
+          84
+        ],
+        [
+          "집",
+          78
+        ],
+        [
+          "수",
+          77
+        ],
+        [
+          "담화",
+          77
+        ],
+        [
+          "박사",
+          76
+        ],
+        [
+          "이승만",
+          75
+        ]
+      ]
+    },
+    {
+      "analyzer": "Kkma",
+      "with_stopwords_filter": true,
+      "execution_time_seconds": 21.23,
+      "total_nouns": 16456,
+      "unique_nouns": 6345,
+      "top_10_words": [
+        [
+          "대통령",
+          95
+        ],
+        [
+          "담화",
+          77
+        ],
+        [
+          "박사",
+          76
+        ],
+        [
+          "이승만",
+          75
+        ],
+        [
+          "공보처",
+          75
+        ],
+        [
+          "대통령이승만박사담화",
+          74
+        ],
+        [
+          "1953",
+          74
+        ],
+        [
+          "정부",
+          69
+        ],
+        [
+          "사람",
+          53
+        ],
+        [
+          "문제",
+          46
+        ]
+      ]
+    },
+    {
+      "analyzer": "Komoran",
+      "with_stopwords_filter": false,
+      "execution_time_seconds": 2.29,
+      "total_nouns": 25513,
+      "unique_nouns": 4278,
+      "top_10_words": [
+        [
+          "것",
+          1796
+        ],
+        [
+          "정부",
+          384
+        ],
+        [
+          "바",
+          281
+        ],
+        [
+          "수",
+          249
+        ],
+        [
+          "사람",
+          206
+        ],
+        [
+          "일",
+          190
+        ],
+        [
+          "대통령",
+          181
+        ],
+        [
+          "미국",
+          173
+        ],
+        [
+          "중",
+          169
+        ],
+        [
+          "세계",
+          155
+        ]
+      ]
+    },
+    {
+      "analyzer": "Komoran",
+      "with_stopwords_filter": true,
+      "execution_time_seconds": 2.4,
+      "total_nouns": 19155,
+      "unique_nouns": 3885,
+      "top_10_words": [
+        [
+          "정부",
+          384
+        ],
+        [
+          "사람",
+          206
+        ],
+        [
+          "대통령",
+          181
+        ],
+        [
+          "미국",
+          173
+        ],
+        [
+          "세계",
+          155
+        ],
+        [
+          "나라",
+          143
+        ],
+        [
+          "국가",
+          143
+        ],
+        [
+          "민족",
+          127
+        ],
+        [
+          "한국",
+          117
+        ],
+        [
+          "문제",
+          113
+        ]
+      ]
+    }
+  ]
+}

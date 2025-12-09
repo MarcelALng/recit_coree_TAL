@@ -89,7 +89,7 @@ for idx, article in enumerate(articles, 1):
         if len(results) > 0 and len(results) % 20 == 0:
             save_to_json(results, output_file)
 
-        time.sleep(1)
+        time.sleep(0.5)
 
     except Exception as e:
         print(f"  ❌ Error on {title}: {e}")

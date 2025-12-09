@@ -1,0 +1,792 @@
+{
+  "president": "Yun Bo Seon (윤보선)",
+  "total_speeches": 5,
+  "results": [
+    {
+      "analyzer": "Hannanum",
+      "execution_time_seconds": 0.13,
+      "speeches_per_second": 38.23,
+      "total_nouns": 468,
+      "unique_nouns": 366,
+      "avg_cpu_percent": 0,
+      "avg_gpu_percent": 0,
+      "avg_power_watts": 0,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "국민",
+          "frequency": 12
+        },
+        {
+          "rank": 2,
+          "word": "윤대통령",
+          "frequency": 12
+        },
+        {
+          "rank": 3,
+          "word": "외교",
+          "frequency": 6
+        },
+        {
+          "rank": 4,
+          "word": "하겠읍니",
+          "frequency": 5
+        },
+        {
+          "rank": 5,
+          "word": "독재",
+          "frequency": 5
+        },
+        {
+          "rank": 6,
+          "word": "제2공화국",
+          "frequency": 4
+        },
+        {
+          "rank": 7,
+          "word": "정부",
+          "frequency": 4
+        },
+        {
+          "rank": 8,
+          "word": "말씀",
+          "frequency": 3
+        },
+        {
+          "rank": 9,
+          "word": "적극적",
+          "frequency": 3
+        },
+        {
+          "rank": 10,
+          "word": "국가",
+          "frequency": 3
+        },
+        {
+          "rank": 11,
+          "word": "경제적",
+          "frequency": 3
+        },
+        {
+          "rank": 12,
+          "word": "자유",
+          "frequency": 3
+        },
+        {
+          "rank": 13,
+          "word": "정권",
+          "frequency": 3
+        },
+        {
+          "rank": 14,
+          "word": "1960년",
+          "frequency": 3
+        },
+        {
+          "rank": 15,
+          "word": "환영",
+          "frequency": 3
+        },
+        {
+          "rank": 16,
+          "word": "참석",
+          "frequency": 3
+        },
+        {
+          "rank": 17,
+          "word": "감격",
+          "frequency": 2
+        },
+        {
+          "rank": 18,
+          "word": "책임감",
+          "frequency": 2
+        },
+        {
+          "rank": 19,
+          "word": "하나",
+          "frequency": 2
+        },
+        {
+          "rank": 20,
+          "word": "대통령",
+          "frequency": 2
+        },
+        {
+          "rank": 21,
+          "word": "현명",
+          "frequency": 2
+        },
+        {
+          "rank": 22,
+          "word": "오늘날",
+          "frequency": 2
+        },
+        {
+          "rank": 23,
+          "word": "정치",
+          "frequency": 2
+        },
+        {
+          "rank": 24,
+          "word": "내각",
+          "frequency": 2
+        },
+        {
+          "rank": 25,
+          "word": "자세",
+          "frequency": 2
+        },
+        {
+          "rank": 26,
+          "word": "행정",
+          "frequency": 2
+        },
+        {
+          "rank": 27,
+          "word": "사월혁명",
+          "frequency": 2
+        },
+        {
+          "rank": 28,
+          "word": "정당",
+          "frequency": 2
+        },
+        {
+          "rank": 29,
+          "word": "집권",
+          "frequency": 2
+        },
+        {
+          "rank": 30,
+          "word": "마련",
+          "frequency": 2
+        },
+        {
+          "rank": 31,
+          "word": "탕진",
+          "frequency": 2
+        },
+        {
+          "rank": 32,
+          "word": "운명",
+          "frequency": 2
+        },
+        {
+          "rank": 33,
+          "word": "경제",
+          "frequency": 2
+        },
+        {
+          "rank": 34,
+          "word": "이룩",
+          "frequency": 2
+        },
+        {
+          "rank": 35,
+          "word": "하여야겠읍니",
+          "frequency": 2
+        },
+        {
+          "rank": 36,
+          "word": "해야겠읍니",
+          "frequency": 2
+        },
+        {
+          "rank": 37,
+          "word": "관계",
+          "frequency": 2
+        },
+        {
+          "rank": 38,
+          "word": "정책",
+          "frequency": 2
+        },
+        {
+          "rank": 39,
+          "word": "국내",
+          "frequency": 2
+        },
+        {
+          "rank": 40,
+          "word": "이익",
+          "frequency": 2
+        },
+        {
+          "rank": 41,
+          "word": "8월",
+          "frequency": 2
+        },
+        {
+          "rank": 42,
+          "word": "시민들",
+          "frequency": 2
+        },
+        {
+          "rank": 43,
+          "word": "참배",
+          "frequency": 2
+        },
+        {
+          "rank": 44,
+          "word": "수영",
+          "frequency": 2
+        },
+        {
+          "rank": 45,
+          "word": "이날",
+          "frequency": 2
+        },
+        {
+          "rank": 46,
+          "word": "시민",
+          "frequency": 2
+        },
+        {
+          "rank": 47,
+          "word": "오시",
+          "frequency": 2
+        },
+        {
+          "rank": 48,
+          "word": "국민들",
+          "frequency": 2
+        },
+        {
+          "rank": 49,
+          "word": "호소",
+          "frequency": 2
+        },
+        {
+          "rank": 50,
+          "word": "강조",
+          "frequency": 2
+        }
+      ]
+    },
+    {
+      "analyzer": "Kkma",
+      "execution_time_seconds": 0.57,
+      "speeches_per_second": 8.7,
+      "total_nouns": 516,
+      "unique_nouns": 458,
+      "avg_cpu_percent": 0,
+      "avg_gpu_percent": 0,
+      "avg_power_watts": 0,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "대통령",
+          "frequency": 5
+        },
+        {
+          "rank": 2,
+          "word": "국민",
+          "frequency": 4
+        },
+        {
+          "rank": 3,
+          "word": "환영",
+          "frequency": 4
+        },
+        {
+          "rank": 4,
+          "word": "혁명",
+          "frequency": 3
+        },
+        {
+          "rank": 5,
+          "word": "독재",
+          "frequency": 3
+        },
+        {
+          "rank": 6,
+          "word": "1960년",
+          "frequency": 3
+        },
+        {
+          "rank": 7,
+          "word": "시민",
+          "frequency": 3
+        },
+        {
+          "rank": 8,
+          "word": "윤대통령",
+          "frequency": 3
+        },
+        {
+          "rank": 9,
+          "word": "도착",
+          "frequency": 3
+        },
+        {
+          "rank": 10,
+          "word": "참석",
+          "frequency": 3
+        },
+        {
+          "rank": 11,
+          "word": "공화국",
+          "frequency": 2
+        },
+        {
+          "rank": 12,
+          "word": "초대",
+          "frequency": 2
+        },
+        {
+          "rank": 13,
+          "word": "초대대통령",
+          "frequency": 2
+        },
+        {
+          "rank": 14,
+          "word": "하나",
+          "frequency": 2
+        },
+        {
+          "rank": 15,
+          "word": "선서",
+          "frequency": 2
+        },
+        {
+          "rank": 16,
+          "word": "사월",
+          "frequency": 2
+        },
+        {
+          "rank": 17,
+          "word": "사월혁명",
+          "frequency": 2
+        },
+        {
+          "rank": 18,
+          "word": "국가",
+          "frequency": 2
+        },
+        {
+          "rank": 19,
+          "word": "마련",
+          "frequency": 2
+        },
+        {
+          "rank": 20,
+          "word": "나라",
+          "frequency": 2
+        },
+        {
+          "rank": 21,
+          "word": "거리",
+          "frequency": 2
+        },
+        {
+          "rank": 22,
+          "word": "세계",
+          "frequency": 2
+        },
+        {
+          "rank": 23,
+          "word": "사이",
+          "frequency": 2
+        },
+        {
+          "rank": 24,
+          "word": "대신",
+          "frequency": 2
+        },
+        {
+          "rank": 25,
+          "word": "8월",
+          "frequency": 2
+        },
+        {
+          "rank": 26,
+          "word": "묘지",
+          "frequency": 2
+        },
+        {
+          "rank": 27,
+          "word": "참배",
+          "frequency": 2
+        },
+        {
+          "rank": 28,
+          "word": "하오",
+          "frequency": 2
+        },
+        {
+          "rank": 29,
+          "word": "이날",
+          "frequency": 2
+        },
+        {
+          "rank": 30,
+          "word": "오시",
+          "frequency": 2
+        },
+        {
+          "rank": 31,
+          "word": "열린",
+          "frequency": 2
+        },
+        {
+          "rank": 32,
+          "word": "완수",
+          "frequency": 2
+        },
+        {
+          "rank": 33,
+          "word": "정신",
+          "frequency": 2
+        },
+        {
+          "rank": 34,
+          "word": "사회",
+          "frequency": 2
+        },
+        {
+          "rank": 35,
+          "word": "준법",
+          "frequency": 2
+        },
+        {
+          "rank": 36,
+          "word": "호소",
+          "frequency": 2
+        },
+        {
+          "rank": 37,
+          "word": "강조",
+          "frequency": 2
+        },
+        {
+          "rank": 38,
+          "word": "예정",
+          "frequency": 2
+        },
+        {
+          "rank": 39,
+          "word": "출처",
+          "frequency": 2
+        },
+        {
+          "rank": 40,
+          "word": "조선",
+          "frequency": 2
+        },
+        {
+          "rank": 41,
+          "word": "조선일보",
+          "frequency": 2
+        },
+        {
+          "rank": 42,
+          "word": "일보",
+          "frequency": 2
+        },
+        {
+          "rank": 43,
+          "word": "일자",
+          "frequency": 2
+        },
+        {
+          "rank": 44,
+          "word": "연설",
+          "frequency": 2
+        },
+        {
+          "rank": 45,
+          "word": "2공화국",
+          "frequency": 1
+        },
+        {
+          "rank": 46,
+          "word": "영예",
+          "frequency": 1
+        },
+        {
+          "rank": 47,
+          "word": "당선",
+          "frequency": 1
+        },
+        {
+          "rank": 48,
+          "word": "나의",
+          "frequency": 1
+        },
+        {
+          "rank": 49,
+          "word": "감격",
+          "frequency": 1
+        },
+        {
+          "rank": 50,
+          "word": "선서식",
+          "frequency": 1
+        }
+      ]
+    },
+    {
+      "analyzer": "Komoran",
+      "execution_time_seconds": 0.04,
+      "speeches_per_second": 114.73,
+      "total_nouns": 490,
+      "unique_nouns": 318,
+      "avg_cpu_percent": 0,
+      "avg_gpu_percent": 0,
+      "avg_power_watts": 0,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "대통령",
+          "frequency": 18
+        },
+        {
+          "rank": 2,
+          "word": "국민",
+          "frequency": 18
+        },
+        {
+          "rank": 3,
+          "word": "외교",
+          "frequency": 9
+        },
+        {
+          "rank": 4,
+          "word": "독재",
+          "frequency": 6
+        },
+        {
+          "rank": 5,
+          "word": "시민",
+          "frequency": 6
+        },
+        {
+          "rank": 6,
+          "word": "정부",
+          "frequency": 5
+        },
+        {
+          "rank": 7,
+          "word": "정치",
+          "frequency": 5
+        },
+        {
+          "rank": 8,
+          "word": "행정",
+          "frequency": 5
+        },
+        {
+          "rank": 9,
+          "word": "정책",
+          "frequency": 5
+        },
+        {
+          "rank": 10,
+          "word": "혁명",
+          "frequency": 5
+        },
+        {
+          "rank": 11,
+          "word": "국가",
+          "frequency": 5
+        },
+        {
+          "rank": 12,
+          "word": "부대",
+          "frequency": 5
+        },
+        {
+          "rank": 13,
+          "word": "제2공화국",
+          "frequency": 4
+        },
+        {
+          "rank": 14,
+          "word": "선서",
+          "frequency": 4
+        },
+        {
+          "rank": 15,
+          "word": "말씀",
+          "frequency": 4
+        },
+        {
+          "rank": 16,
+          "word": "경제",
+          "frequency": 4
+        },
+        {
+          "rank": 17,
+          "word": "환영",
+          "frequency": 4
+        },
+        {
+          "rank": 18,
+          "word": "하오",
+          "frequency": 4
+        },
+        {
+          "rank": 19,
+          "word": "이제",
+          "frequency": 3
+        },
+        {
+          "rank": 20,
+          "word": "적극",
+          "frequency": 3
+        },
+        {
+          "rank": 21,
+          "word": "사월",
+          "frequency": 3
+        },
+        {
+          "rank": 22,
+          "word": "위기",
+          "frequency": 3
+        },
+        {
+          "rank": 23,
+          "word": "정권",
+          "frequency": 3
+        },
+        {
+          "rank": 24,
+          "word": "국내",
+          "frequency": 3
+        },
+        {
+          "rank": 25,
+          "word": "도착",
+          "frequency": 3
+        },
+        {
+          "rank": 26,
+          "word": "이날",
+          "frequency": 3
+        },
+        {
+          "rank": 27,
+          "word": "참석",
+          "frequency": 3
+        },
+        {
+          "rank": 28,
+          "word": "대구",
+          "frequency": 3
+        },
+        {
+          "rank": 29,
+          "word": "월남",
+          "frequency": 3
+        },
+        {
+          "rank": 30,
+          "word": "초대",
+          "frequency": 2
+        },
+        {
+          "rank": 31,
+          "word": "감격",
+          "frequency": 2
+        },
+        {
+          "rank": 32,
+          "word": "책임감",
+          "frequency": 2
+        },
+        {
+          "rank": 33,
+          "word": "제위",
+          "frequency": 2
+        },
+        {
+          "rank": 34,
+          "word": "현명",
+          "frequency": 2
+        },
+        {
+          "rank": 35,
+          "word": "건설",
+          "frequency": 2
+        },
+        {
+          "rank": 36,
+          "word": "오늘날",
+          "frequency": 2
+        },
+        {
+          "rank": 37,
+          "word": "수행",
+          "frequency": 2
+        },
+        {
+          "rank": 38,
+          "word": "내각",
+          "frequency": 2
+        },
+        {
+          "rank": 39,
+          "word": "자세",
+          "frequency": 2
+        },
+        {
+          "rank": 40,
+          "word": "정당",
+          "frequency": 2
+        },
+        {
+          "rank": 41,
+          "word": "집권",
+          "frequency": 2
+        },
+        {
+          "rank": 42,
+          "word": "유산",
+          "frequency": 2
+        },
+        {
+          "rank": 43,
+          "word": "경제적 자유",
+          "frequency": 2
+        },
+        {
+          "rank": 44,
+          "word": "마련",
+          "frequency": 2
+        },
+        {
+          "rank": 45,
+          "word": "활동",
+          "frequency": 2
+        },
+        {
+          "rank": 46,
+          "word": "부패",
+          "frequency": 2
+        },
+        {
+          "rank": 47,
+          "word": "탕진",
+          "frequency": 2
+        },
+        {
+          "rank": 48,
+          "word": "나라",
+          "frequency": 2
+        },
+        {
+          "rank": 49,
+          "word": "운명",
+          "frequency": 2
+        },
+        {
+          "rank": 50,
+          "word": "창의",
+          "frequency": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "president": "Choi Kyu Hah (최규하)",
+  "total_speeches": 60,
+  "results": [
+    {
+      "analyzer": "Hannanum",
+      "execution_time_seconds": 6.77,
+      "speeches_per_second": 8.87,
+      "total_nouns": 21252,
+      "unique_nouns": 5534,
+      "avg_cpu_percent": 0,
+      "avg_gpu_percent": 0,
+      "avg_power_watts": 0,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "여러분",
+          "frequency": 397
+        },
+        {
+          "rank": 2,
+          "word": "국민",
+          "frequency": 349
+        },
+        {
+          "rank": 3,
+          "word": "노력",
+          "frequency": 191
+        },
+        {
+          "rank": 4,
+          "word": "정부",
+          "frequency": 189
+        },
+        {
+          "rank": 5,
+          "word": "나라",
+          "frequency": 180
+        },
+        {
+          "rank": 6,
+          "word": "국가",
+          "frequency": 135
+        },
+        {
+          "rank": 7,
+          "word": "안정",
+          "frequency": 128
+        },
+        {
+          "rank": 8,
+          "word": "발전",
+          "frequency": 126
+        },
+        {
+          "rank": 9,
+          "word": "본인",
+          "frequency": 114
+        },
+        {
+          "rank": 10,
+          "word": "생각",
+          "frequency": 103
+        },
+        {
+          "rank": 11,
+          "word": "추진",
+          "frequency": 103
+        },
+        {
+          "rank": 12,
+          "word": "경제",
+          "frequency": 96
+        },
+        {
+          "rank": 13,
+          "word": "극복",
+          "frequency": 82
+        },
+        {
+          "rank": 14,
+          "word": "사회",
+          "frequency": 76
+        },
+        {
+          "rank": 15,
+          "word": "한편",
+          "frequency": 73
+        },
+        {
+          "rank": 16,
+          "word": "국민적",
+          "frequency": 70
+        },
+        {
+          "rank": 17,
+          "word": "대통령",
+          "frequency": 68
+        },
+        {
+          "rank": 18,
+          "word": "비롯",
+          "frequency": 68
+        },
+        {
+          "rank": 19,
+          "word": "계속",
+          "frequency": 68
+        },
+        {
+          "rank": 20,
+          "word": "협조",
+          "frequency": 67
+        },
+        {
+          "rank": 21,
+          "word": "가운데",
+          "frequency": 67
+        },
+        {
+          "rank": 22,
+          "word": "국가발전",
+          "frequency": 66
+        },
+        {
+          "rank": 23,
+          "word": "헌법",
+          "frequency": 65
+        },
+        {
+          "rank": 24,
+          "word": "성장",
+          "frequency": 65
+        },
+        {
+          "rank": 25,
+          "word": "어려움",
+          "frequency": 64
+        },
+        {
+          "rank": 26,
+          "word": "그간",
+          "frequency": 62
+        },
+        {
+          "rank": 27,
+          "word": "모두",
+          "frequency": 61
+        },
+        {
+          "rank": 28,
+          "word": "국가적",
+          "frequency": 59
+        },
+        {
+          "rank": 29,
+          "word": "시련",
+          "frequency": 59
+        },
+        {
+          "rank": 30,
+          "word": "사회안정",
+          "frequency": 59
+        },
+        {
+          "rank": 31,
+          "word": "강화",
+          "frequency": 58
+        },
+        {
+          "rank": 32,
+          "word": "건설",
+          "frequency": 55
+        },
+        {
+          "rank": 33,
+          "word": "해결",
+          "frequency": 54
+        },
+        {
+          "rank": 34,
+          "word": "난국",
+          "frequency": 53
+        },
+        {
+          "rank": 35,
+          "word": "경주",
+          "frequency": 52
+        },
+        {
+          "rank": 36,
+          "word": "최선",
+          "frequency": 50
+        },
+        {
+          "rank": 37,
+          "word": "확대",
+          "frequency": 50
+        },
+        {
+          "rank": 38,
+          "word": "평화",
+          "frequency": 49
+        },
+        {
+          "rank": 39,
+          "word": "당면한",
+          "frequency": 48
+        },
+        {
+          "rank": 40,
+          "word": "국민생활",
+          "frequency": 48
+        },
+        {
+          "rank": 41,
+          "word": "대의원",
+          "frequency": 48
+        },
+        {
+          "rank": 42,
+          "word": "문제",
+          "frequency": 47
+        },
+        {
+          "rank": 43,
+          "word": "하나",
+          "frequency": 46
+        },
+        {
+          "rank": 44,
+          "word": "정치적",
+          "frequency": 46
+        },
+        {
+          "rank": 45,
+          "word": "정치발전",
+          "frequency": 46
+        },
+        {
+          "rank": 46,
+          "word": "이룩",
+          "frequency": 45
+        },
+        {
+          "rank": 47,
+          "word": "중요",
+          "frequency": 45
+        },
+        {
+          "rank": 48,
+          "word": "마련",
+          "frequency": 44
+        },
+        {
+          "rank": 49,
+          "word": "수호",
+          "frequency": 43
+        },
+        {
+          "rank": 50,
+          "word": "치하",
+          "frequency": 43
+        }
+      ]
+    },
+    {
+      "analyzer": "Kkma",
+      "execution_time_seconds": 31.01,
+      "speeches_per_second": 1.94,
+      "total_nouns": 18175,
+      "unique_nouns": 5999,
+      "avg_cpu_percent": 0,
+      "avg_gpu_percent": 0,
+      "avg_power_watts": 0,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "국가",
+          "frequency": 58
+        },
+        {
+          "rank": 2,
+          "word": "국민",
+          "frequency": 56
+        },
+        {
+          "rank": 3,
+          "word": "발전",
+          "frequency": 55
+        },
+        {
+          "rank": 4,
+          "word": "여러분",
+          "frequency": 53
+        },
+        {
+          "rank": 5,
+          "word": "노력",
+          "frequency": 52
+        },
+        {
+          "rank": 6,
+          "word": "나라",
+          "frequency": 47
+        },
+        {
+          "rank": 7,
+          "word": "경제",
+          "frequency": 47
+        },
+        {
+          "rank": 8,
+          "word": "안정",
+          "frequency": 46
+        },
+        {
+          "rank": 9,
+          "word": "사회",
+          "frequency": 46
+        },
+        {
+          "rank": 10,
+          "word": "극복",
+          "frequency": 45
+        },
+        {
+          "rank": 11,
+          "word": "질서",
+          "frequency": 42
+        },
+        {
+          "rank": 12,
+          "word": "정부",
+          "frequency": 42
+        },
+        {
+          "rank": 13,
+          "word": "난국",
+          "frequency": 40
+        },
+        {
+          "rank": 14,
+          "word": "국가발전",
+          "frequency": 40
+        },
+        {
+          "rank": 15,
+          "word": "성장",
+          "frequency": 38
+        },
+        {
+          "rank": 16,
+          "word": "계속",
+          "frequency": 38
+        },
+        {
+          "rank": 17,
+          "word": "유지",
+          "frequency": 37
+        },
+        {
+          "rank": 18,
+          "word": "사태",
+          "frequency": 37
+        },
+        {
+          "rank": 19,
+          "word": "안전",
+          "frequency": 36
+        },
+        {
+          "rank": 20,
+          "word": "경주",
+          "frequency": 36
+        },
+        {
+          "rank": 21,
+          "word": "하나",
+          "frequency": 36
+        },
+        {
+          "rank": 22,
+          "word": "이룩",
+          "frequency": 36
+        },
+        {
+          "rank": 23,
+          "word": "시련",
+          "frequency": 36
+        },
+        {
+          "rank": 24,
+          "word": "가운데",
+          "frequency": 36
+        },
+        {
+          "rank": 25,
+          "word": "국민적",
+          "frequency": 34
+        },
+        {
+          "rank": 26,
+          "word": "국제",
+          "frequency": 33
+        },
+        {
+          "rank": 27,
+          "word": "어려움",
+          "frequency": 33
+        },
+        {
+          "rank": 28,
+          "word": "당면",
+          "frequency": 33
+        },
+        {
+          "rank": 29,
+          "word": "치하",
+          "frequency": 33
+        },
+        {
+          "rank": 30,
+          "word": "대통령",
+          "frequency": 32
+        },
+        {
+          "rank": 31,
+          "word": "최선",
+          "frequency": 32
+        },
+        {
+          "rank": 32,
+          "word": "공산",
+          "frequency": 32
+        },
+        {
+          "rank": 33,
+          "word": "협조",
+          "frequency": 32
+        },
+        {
+          "rank": 34,
+          "word": "정세",
+          "frequency": 32
+        },
+        {
+          "rank": 35,
+          "word": "세계",
+          "frequency": 32
+        },
+        {
+          "rank": 36,
+          "word": "보장",
+          "frequency": 31
+        },
+        {
+          "rank": 37,
+          "word": "기반",
+          "frequency": 31
+        },
+        {
+          "rank": 38,
+          "word": "북한",
+          "frequency": 30
+        },
+        {
+          "rank": 39,
+          "word": "관계",
+          "frequency": 30
+        },
+        {
+          "rank": 40,
+          "word": "건설",
+          "frequency": 30
+        },
+        {
+          "rank": 41,
+          "word": "추진",
+          "frequency": 30
+        },
+        {
+          "rank": 42,
+          "word": "26사태",
+          "frequency": 30
+        },
+        {
+          "rank": 43,
+          "word": "국가적",
+          "frequency": 29
+        },
+        {
+          "rank": 44,
+          "word": "수호",
+          "frequency": 29
+        },
+        {
+          "rank": 45,
+          "word": "조국",
+          "frequency": 29
+        },
+        {
+          "rank": 46,
+          "word": "생활",
+          "frequency": 29
+        },
+        {
+          "rank": 47,
+          "word": "통일",
+          "frequency": 29
+        },
+        {
+          "rank": 48,
+          "word": "생각",
+          "frequency": 29
+        },
+        {
+          "rank": 49,
+          "word": "친애",
+          "frequency": 29
+        },
+        {
+          "rank": 50,
+          "word": "당부",
+          "frequency": 29
+        }
+      ]
+    },
+    {
+      "analyzer": "Komoran",
+      "execution_time_seconds": 3.9,
+      "speeches_per_second": 15.39,
+      "total_nouns": 23878,
+      "unique_nouns": 3407,
+      "avg_cpu_percent": 0,
+      "avg_gpu_percent": 0,
+      "avg_power_watts": 0,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "국민",
+          "frequency": 556
+        },
+        {
+          "rank": 2,
+          "word": "국가",
+          "frequency": 385
+        },
+        {
+          "rank": 3,
+          "word": "발전",
+          "frequency": 296
+        },
+        {
+          "rank": 4,
+          "word": "안정",
+          "frequency": 284
+        },
+        {
+          "rank": 5,
+          "word": "나라",
+          "frequency": 263
+        },
+        {
+          "rank": 6,
+          "word": "경제",
+          "frequency": 249
+        },
+        {
+          "rank": 7,
+          "word": "사회",
+          "frequency": 245
+        },
+        {
+          "rank": 8,
+          "word": "정부",
+          "frequency": 229
+        },
+        {
+          "rank": 9,
+          "word": "노력",
+          "frequency": 199
+        },
+        {
+          "rank": 10,
+          "word": "여러분",
+          "frequency": 150
+        },
+        {
+          "rank": 11,
+          "word": "대통령",
+          "frequency": 143
+        },
+        {
+          "rank": 12,
+          "word": "헌법",
+          "frequency": 137
+        },
+        {
+          "rank": 13,
+          "word": "정치",
+          "frequency": 134
+        },
+        {
+          "rank": 14,
+          "word": "본인",
+          "frequency": 114
+        },
+        {
+          "rank": 15,
+          "word": "문제",
+          "frequency": 109
+        },
+        {
+          "rank": 16,
+          "word": "추진",
+          "frequency": 109
+        },
+        {
+          "rank": 17,
+          "word": "관계",
+          "frequency": 107
+        },
+        {
+          "rank": 18,
+          "word": "생각",
+          "frequency": 103
+        },
+        {
+          "rank": 19,
+          "word": "건설",
+          "frequency": 101
+        },
+        {
+          "rank": 20,
+          "word": "평화",
+          "frequency": 100
+        },
+        {
+          "rank": 21,
+          "word": "사태",
+          "frequency": 98
+        },
+        {
+          "rank": 22,
+          "word": "극복",
+          "frequency": 93
+        },
+        {
+          "rank": 23,
+          "word": "협력",
+          "frequency": 92
+        },
+        {
+          "rank": 24,
+          "word": "세계",
+          "frequency": 92
+        },
+        {
+          "rank": 25,
+          "word": "유지",
+          "frequency": 89
+        },
+        {
+          "rank": 26,
+          "word": "계속",
+          "frequency": 89
+        },
+        {
+          "rank": 27,
+          "word": "안전",
+          "frequency": 88
+        },
+        {
+          "rank": 28,
+          "word": "국제",
+          "frequency": 88
+        },
+        {
+          "rank": 29,
+          "word": "질서",
+          "frequency": 88
+        },
+        {
+          "rank": 30,
+          "word": "북한",
+          "frequency": 87
+        },
+        {
+          "rank": 31,
+          "word": "나가야",
+          "frequency": 82
+        },
+        {
+          "rank": 32,
+          "word": "생활",
+          "frequency": 82
+        },
+        {
+          "rank": 33,
+          "word": "정세",
+          "frequency": 81
+        },
+        {
+          "rank": 34,
+          "word": "난국",
+          "frequency": 76
+        },
+        {
+          "rank": 35,
+          "word": "기반",
+          "frequency": 74
+        },
+        {
+          "rank": 36,
+          "word": "한편",
+          "frequency": 73
+        },
+        {
+          "rank": 37,
+          "word": "말씀",
+          "frequency": 72
+        },
+        {
+          "rank": 38,
+          "word": "협조",
+          "frequency": 71
+        },
+        {
+          "rank": 39,
+          "word": "보장",
+          "frequency": 70
+        },
+        {
+          "rank": 40,
+          "word": "지속",
+          "frequency": 70
+        },
+        {
+          "rank": 41,
+          "word": "가운데",
+          "frequency": 68
+        },
+        {
+          "rank": 42,
+          "word": "혼란",
+          "frequency": 65
+        },
+        {
+          "rank": 43,
+          "word": "성장",
+          "frequency": 64
+        },
+        {
+          "rank": 44,
+          "word": "어려움",
+          "frequency": 64
+        },
+        {
+          "rank": 45,
+          "word": "양국",
+          "frequency": 64
+        },
+        {
+          "rank": 46,
+          "word": "책임",
+          "frequency": 63
+        },
+        {
+          "rank": 47,
+          "word": "운동",
+          "frequency": 63
+        },
+        {
+          "rank": 48,
+          "word": "강화",
+          "frequency": 62
+        },
+        {
+          "rank": 49,
+          "word": "그간",
+          "frequency": 62
+        },
+        {
+          "rank": 50,
+          "word": "정신",
+          "frequency": 61
+        }
+      ]
+    }
+  ]
+}

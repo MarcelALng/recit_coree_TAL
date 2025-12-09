@@ -1,0 +1,792 @@
+{
+  "president": "Moon Jae In (문재인)",
+  "total_speeches": 1392,
+  "results": [
+    {
+      "analyzer": "Hannanum",
+      "execution_time_seconds": 95.97,
+      "speeches_per_second": 14.5,
+      "total_nouns": 367148,
+      "unique_nouns": 42172,
+      "avg_cpu_percent": 30.0,
+      "avg_gpu_percent": 0.0,
+      "avg_power_watts": 10.7,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "국민",
+          "frequency": 6081
+        },
+        {
+          "rank": 2,
+          "word": "여러분",
+          "frequency": 4629
+        },
+        {
+          "rank": 3,
+          "word": "정부",
+          "frequency": 3960
+        },
+        {
+          "rank": 4,
+          "word": "세계",
+          "frequency": 2522
+        },
+        {
+          "rank": 5,
+          "word": "협력",
+          "frequency": 2392
+        },
+        {
+          "rank": 6,
+          "word": "평화",
+          "frequency": 2378
+        },
+        {
+          "rank": 7,
+          "word": "경제",
+          "frequency": 2050
+        },
+        {
+          "rank": 8,
+          "word": "한국",
+          "frequency": 1808
+        },
+        {
+          "rank": 9,
+          "word": "대한민국",
+          "frequency": 1757
+        },
+        {
+          "rank": 10,
+          "word": "노력",
+          "frequency": 1738
+        },
+        {
+          "rank": 11,
+          "word": "지원",
+          "frequency": 1632
+        },
+        {
+          "rank": 12,
+          "word": "양국",
+          "frequency": 1569
+        },
+        {
+          "rank": 13,
+          "word": "코로나19",
+          "frequency": 1514
+        },
+        {
+          "rank": 14,
+          "word": "감사",
+          "frequency": 1393
+        },
+        {
+          "rank": 15,
+          "word": "확대",
+          "frequency": 1230
+        },
+        {
+          "rank": 16,
+          "word": "생각",
+          "frequency": 1228
+        },
+        {
+          "rank": 17,
+          "word": "발전",
+          "frequency": 1206
+        },
+        {
+          "rank": 18,
+          "word": "일자리",
+          "frequency": 1174
+        },
+        {
+          "rank": 19,
+          "word": "강화",
+          "frequency": 1146
+        },
+        {
+          "rank": 20,
+          "word": "분야",
+          "frequency": 1075
+        },
+        {
+          "rank": 21,
+          "word": "기업",
+          "frequency": 1018
+        },
+        {
+          "rank": 22,
+          "word": "나라",
+          "frequency": 978
+        },
+        {
+          "rank": 23,
+          "word": "마음",
+          "frequency": 974
+        },
+        {
+          "rank": 24,
+          "word": "시작",
+          "frequency": 953
+        },
+        {
+          "rank": 25,
+          "word": "추진",
+          "frequency": 941
+        },
+        {
+          "rank": 26,
+          "word": "존경",
+          "frequency": 935
+        },
+        {
+          "rank": 27,
+          "word": "미래",
+          "frequency": 931
+        },
+        {
+          "rank": 28,
+          "word": "올해",
+          "frequency": 931
+        },
+        {
+          "rank": 29,
+          "word": "성장",
+          "frequency": 893
+        },
+        {
+          "rank": 30,
+          "word": "시대",
+          "frequency": 874
+        },
+        {
+          "rank": 31,
+          "word": "지역",
+          "frequency": 873
+        },
+        {
+          "rank": 32,
+          "word": "필요",
+          "frequency": 865
+        },
+        {
+          "rank": 33,
+          "word": "상황",
+          "frequency": 851
+        },
+        {
+          "rank": 34,
+          "word": "방역",
+          "frequency": 832
+        },
+        {
+          "rank": 35,
+          "word": "역사",
+          "frequency": 817
+        },
+        {
+          "rank": 36,
+          "word": "관계",
+          "frequency": 789
+        },
+        {
+          "rank": 37,
+          "word": "마련",
+          "frequency": 784
+        },
+        {
+          "rank": 38,
+          "word": "사회",
+          "frequency": 778
+        },
+        {
+          "rank": 39,
+          "word": "대응",
+          "frequency": 774
+        },
+        {
+          "rank": 40,
+          "word": "중요",
+          "frequency": 771
+        },
+        {
+          "rank": 41,
+          "word": "한반도",
+          "frequency": 753
+        },
+        {
+          "rank": 42,
+          "word": "한반",
+          "frequency": 752
+        },
+        {
+          "rank": 43,
+          "word": "이번",
+          "frequency": 734
+        },
+        {
+          "rank": 44,
+          "word": "역할",
+          "frequency": 730
+        },
+        {
+          "rank": 45,
+          "word": "극복",
+          "frequency": 727
+        },
+        {
+          "rank": 46,
+          "word": "문제",
+          "frequency": 719
+        },
+        {
+          "rank": 47,
+          "word": "사람",
+          "frequency": 715
+        },
+        {
+          "rank": 48,
+          "word": "민주주의",
+          "frequency": 709
+        },
+        {
+          "rank": 49,
+          "word": "혁신",
+          "frequency": 679
+        },
+        {
+          "rank": 50,
+          "word": "희망",
+          "frequency": 669
+        }
+      ]
+    },
+    {
+      "analyzer": "Kkma",
+      "execution_time_seconds": 418.39,
+      "speeches_per_second": 3.33,
+      "total_nouns": 299585,
+      "unique_nouns": 33698,
+      "avg_cpu_percent": 107.5,
+      "avg_gpu_percent": 0.0,
+      "avg_power_watts": 10.7,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "국민",
+          "frequency": 1157
+        },
+        {
+          "rank": 2,
+          "word": "감사",
+          "frequency": 1083
+        },
+        {
+          "rank": 3,
+          "word": "정부",
+          "frequency": 1066
+        },
+        {
+          "rank": 4,
+          "word": "노력",
+          "frequency": 841
+        },
+        {
+          "rank": 5,
+          "word": "국가",
+          "frequency": 821
+        },
+        {
+          "rank": 6,
+          "word": "경제",
+          "frequency": 802
+        },
+        {
+          "rank": 7,
+          "word": "여러분",
+          "frequency": 785
+        },
+        {
+          "rank": 8,
+          "word": "세계",
+          "frequency": 778
+        },
+        {
+          "rank": 9,
+          "word": "협력",
+          "frequency": 733
+        },
+        {
+          "rank": 10,
+          "word": "발전",
+          "frequency": 705
+        },
+        {
+          "rank": 11,
+          "word": "나라",
+          "frequency": 689
+        },
+        {
+          "rank": 12,
+          "word": "지원",
+          "frequency": 687
+        },
+        {
+          "rank": 13,
+          "word": "사회",
+          "frequency": 674
+        },
+        {
+          "rank": 14,
+          "word": "대한",
+          "frequency": 661
+        },
+        {
+          "rank": 15,
+          "word": "대한민국",
+          "frequency": 646
+        },
+        {
+          "rank": 16,
+          "word": "민국",
+          "frequency": 646
+        },
+        {
+          "rank": 17,
+          "word": "생각",
+          "frequency": 642
+        },
+        {
+          "rank": 18,
+          "word": "미래",
+          "frequency": 595
+        },
+        {
+          "rank": 19,
+          "word": "한국",
+          "frequency": 595
+        },
+        {
+          "rank": 20,
+          "word": "강화",
+          "frequency": 579
+        },
+        {
+          "rank": 21,
+          "word": "확대",
+          "frequency": 575
+        },
+        {
+          "rank": 22,
+          "word": "성장",
+          "frequency": 572
+        },
+        {
+          "rank": 23,
+          "word": "기대",
+          "frequency": 572
+        },
+        {
+          "rank": 24,
+          "word": "마음",
+          "frequency": 553
+        },
+        {
+          "rank": 25,
+          "word": "중요",
+          "frequency": 540
+        },
+        {
+          "rank": 26,
+          "word": "모두",
+          "frequency": 533
+        },
+        {
+          "rank": 27,
+          "word": "평화",
+          "frequency": 532
+        },
+        {
+          "rank": 28,
+          "word": "이번",
+          "frequency": 527
+        },
+        {
+          "rank": 29,
+          "word": "추진",
+          "frequency": 523
+        },
+        {
+          "rank": 30,
+          "word": "산업",
+          "frequency": 514
+        },
+        {
+          "rank": 31,
+          "word": "필요",
+          "frequency": 503
+        },
+        {
+          "rank": 32,
+          "word": "대응",
+          "frequency": 499
+        },
+        {
+          "rank": 33,
+          "word": "정책",
+          "frequency": 492
+        },
+        {
+          "rank": 34,
+          "word": "시대",
+          "frequency": 490
+        },
+        {
+          "rank": 35,
+          "word": "기업",
+          "frequency": 488
+        },
+        {
+          "rank": 36,
+          "word": "주신",
+          "frequency": 486
+        },
+        {
+          "rank": 37,
+          "word": "지역",
+          "frequency": 485
+        },
+        {
+          "rank": 38,
+          "word": "마련",
+          "frequency": 484
+        },
+        {
+          "rank": 39,
+          "word": "안전",
+          "frequency": 483
+        },
+        {
+          "rank": 40,
+          "word": "분야",
+          "frequency": 481
+        },
+        {
+          "rank": 41,
+          "word": "시작",
+          "frequency": 476
+        },
+        {
+          "rank": 42,
+          "word": "자리",
+          "frequency": 468
+        },
+        {
+          "rank": 43,
+          "word": "희망",
+          "frequency": 464
+        },
+        {
+          "rank": 44,
+          "word": "상황",
+          "frequency": 463
+        },
+        {
+          "rank": 45,
+          "word": "올해",
+          "frequency": 454
+        },
+        {
+          "rank": 46,
+          "word": "성과",
+          "frequency": 452
+        },
+        {
+          "rank": 47,
+          "word": "회의",
+          "frequency": 451
+        },
+        {
+          "rank": 48,
+          "word": "역할",
+          "frequency": 451
+        },
+        {
+          "rank": 49,
+          "word": "사람",
+          "frequency": 450
+        },
+        {
+          "rank": 50,
+          "word": "코로나",
+          "frequency": 445
+        }
+      ]
+    },
+    {
+      "analyzer": "Komoran",
+      "execution_time_seconds": 40.67,
+      "speeches_per_second": 34.23,
+      "total_nouns": 402993,
+      "unique_nouns": 15192,
+      "avg_cpu_percent": 46.0,
+      "avg_gpu_percent": 0.0,
+      "avg_power_watts": 10.7,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "국민",
+          "frequency": 6650
+        },
+        {
+          "rank": 2,
+          "word": "정부",
+          "frequency": 4764
+        },
+        {
+          "rank": 3,
+          "word": "경제",
+          "frequency": 4283
+        },
+        {
+          "rank": 4,
+          "word": "협력",
+          "frequency": 3320
+        },
+        {
+          "rank": 5,
+          "word": "세계",
+          "frequency": 3096
+        },
+        {
+          "rank": 6,
+          "word": "평화",
+          "frequency": 3013
+        },
+        {
+          "rank": 7,
+          "word": "여러분",
+          "frequency": 2844
+        },
+        {
+          "rank": 8,
+          "word": "한국",
+          "frequency": 2737
+        },
+        {
+          "rank": 9,
+          "word": "국가",
+          "frequency": 2714
+        },
+        {
+          "rank": 10,
+          "word": "사회",
+          "frequency": 2379
+        },
+        {
+          "rank": 11,
+          "word": "산업",
+          "frequency": 2208
+        },
+        {
+          "rank": 12,
+          "word": "감사",
+          "frequency": 2132
+        },
+        {
+          "rank": 13,
+          "word": "지원",
+          "frequency": 1996
+        },
+        {
+          "rank": 14,
+          "word": "대한민국",
+          "frequency": 1886
+        },
+        {
+          "rank": 15,
+          "word": "노력",
+          "frequency": 1804
+        },
+        {
+          "rank": 16,
+          "word": "코로나",
+          "frequency": 1748
+        },
+        {
+          "rank": 17,
+          "word": "혁신",
+          "frequency": 1739
+        },
+        {
+          "rank": 18,
+          "word": "기업",
+          "frequency": 1707
+        },
+        {
+          "rank": 19,
+          "word": "발전",
+          "frequency": 1706
+        },
+        {
+          "rank": 20,
+          "word": "지역",
+          "frequency": 1665
+        },
+        {
+          "rank": 21,
+          "word": "양국",
+          "frequency": 1624
+        },
+        {
+          "rank": 22,
+          "word": "한반도",
+          "frequency": 1580
+        },
+        {
+          "rank": 23,
+          "word": "나라",
+          "frequency": 1573
+        },
+        {
+          "rank": 24,
+          "word": "성장",
+          "frequency": 1519
+        },
+        {
+          "rank": 25,
+          "word": "정책",
+          "frequency": 1411
+        },
+        {
+          "rank": 26,
+          "word": "일자리",
+          "frequency": 1399
+        },
+        {
+          "rank": 27,
+          "word": "미래",
+          "frequency": 1393
+        },
+        {
+          "rank": 28,
+          "word": "위기",
+          "frequency": 1339
+        },
+        {
+          "rank": 29,
+          "word": "확대",
+          "frequency": 1308
+        },
+        {
+          "rank": 30,
+          "word": "생각",
+          "frequency": 1255
+        },
+        {
+          "rank": 31,
+          "word": "강화",
+          "frequency": 1216
+        },
+        {
+          "rank": 32,
+          "word": "방역",
+          "frequency": 1188
+        },
+        {
+          "rank": 33,
+          "word": "안전",
+          "frequency": 1172
+        },
+        {
+          "rank": 34,
+          "word": "분야",
+          "frequency": 1151
+        },
+        {
+          "rank": 35,
+          "word": "국제",
+          "frequency": 1103
+        },
+        {
+          "rank": 36,
+          "word": "적극",
+          "frequency": 1097
+        },
+        {
+          "rank": 37,
+          "word": "대통령",
+          "frequency": 1061
+        },
+        {
+          "rank": 38,
+          "word": "사람",
+          "frequency": 1043
+        },
+        {
+          "rank": 39,
+          "word": "시대",
+          "frequency": 1040
+        },
+        {
+          "rank": 40,
+          "word": "역사",
+          "frequency": 1038
+        },
+        {
+          "rank": 41,
+          "word": "추진",
+          "frequency": 1025
+        },
+        {
+          "rank": 42,
+          "word": "투자",
+          "frequency": 1019
+        },
+        {
+          "rank": 43,
+          "word": "마음",
+          "frequency": 1013
+        },
+        {
+          "rank": 44,
+          "word": "상황",
+          "frequency": 1001
+        },
+        {
+          "rank": 45,
+          "word": "시작",
+          "frequency": 999
+        },
+        {
+          "rank": 46,
+          "word": "대응",
+          "frequency": 976
+        },
+        {
+          "rank": 47,
+          "word": "올해",
+          "frequency": 950
+        },
+        {
+          "rank": 48,
+          "word": "존경",
+          "frequency": 940
+        },
+        {
+          "rank": 49,
+          "word": "필요",
+          "frequency": 926
+        },
+        {
+          "rank": 50,
+          "word": "기대",
+          "frequency": 924
+        }
+      ]
+    }
+  ]
+}

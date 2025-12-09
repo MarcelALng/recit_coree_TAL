@@ -1,0 +1,792 @@
+{
+  "president": "Lee Myung Bak (이명박)",
+  "total_speeches": 819,
+  "results": [
+    {
+      "analyzer": "Hannanum",
+      "execution_time_seconds": 63.45,
+      "speeches_per_second": 12.91,
+      "total_nouns": 238533,
+      "unique_nouns": 25964,
+      "avg_cpu_percent": 49.9,
+      "avg_gpu_percent": 0.0,
+      "avg_power_watts": 10.7,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "여러분",
+          "frequency": 5263
+        },
+        {
+          "rank": 2,
+          "word": "세계",
+          "frequency": 3108
+        },
+        {
+          "rank": 3,
+          "word": "국민",
+          "frequency": 2899
+        },
+        {
+          "rank": 4,
+          "word": "생각",
+          "frequency": 2558
+        },
+        {
+          "rank": 5,
+          "word": "대한민국",
+          "frequency": 2074
+        },
+        {
+          "rank": 6,
+          "word": "정부",
+          "frequency": 1817
+        },
+        {
+          "rank": 7,
+          "word": "나라",
+          "frequency": 1458
+        },
+        {
+          "rank": 8,
+          "word": "감사",
+          "frequency": 1421
+        },
+        {
+          "rank": 9,
+          "word": "경제",
+          "frequency": 1384
+        },
+        {
+          "rank": 10,
+          "word": "한국",
+          "frequency": 1319
+        },
+        {
+          "rank": 11,
+          "word": "발전",
+          "frequency": 1266
+        },
+        {
+          "rank": 12,
+          "word": "대통령",
+          "frequency": 1161
+        },
+        {
+          "rank": 13,
+          "word": "노력",
+          "frequency": 1069
+        },
+        {
+          "rank": 14,
+          "word": "협력",
+          "frequency": 1043
+        },
+        {
+          "rank": 15,
+          "word": "때문",
+          "frequency": 1042
+        },
+        {
+          "rank": 16,
+          "word": "기업",
+          "frequency": 1019
+        },
+        {
+          "rank": 17,
+          "word": "사랑",
+          "frequency": 1014
+        },
+        {
+          "rank": 18,
+          "word": "사회",
+          "frequency": 990
+        },
+        {
+          "rank": 19,
+          "word": "자리",
+          "frequency": 959
+        },
+        {
+          "rank": 20,
+          "word": "사람",
+          "frequency": 941
+        },
+        {
+          "rank": 21,
+          "word": "이번",
+          "frequency": 912
+        },
+        {
+          "rank": 22,
+          "word": "존경",
+          "frequency": 898
+        },
+        {
+          "rank": 23,
+          "word": "문제",
+          "frequency": 853
+        },
+        {
+          "rank": 24,
+          "word": "미래",
+          "frequency": 830
+        },
+        {
+          "rank": 25,
+          "word": "G20",
+          "frequency": 797
+        },
+        {
+          "rank": 26,
+          "word": "시대",
+          "frequency": 756
+        },
+        {
+          "rank": 27,
+          "word": "모두",
+          "frequency": 746
+        },
+        {
+          "rank": 28,
+          "word": "말씀",
+          "frequency": 735
+        },
+        {
+          "rank": 29,
+          "word": "일자리",
+          "frequency": 724
+        },
+        {
+          "rank": 30,
+          "word": "극복",
+          "frequency": 724
+        },
+        {
+          "rank": 31,
+          "word": "성장",
+          "frequency": 721
+        },
+        {
+          "rank": 32,
+          "word": "양국",
+          "frequency": 681
+        },
+        {
+          "rank": 33,
+          "word": "관계",
+          "frequency": 645
+        },
+        {
+          "rank": 34,
+          "word": "기회",
+          "frequency": 618
+        },
+        {
+          "rank": 35,
+          "word": "지원",
+          "frequency": 606
+        },
+        {
+          "rank": 36,
+          "word": "중요",
+          "frequency": 603
+        },
+        {
+          "rank": 37,
+          "word": "정상회의",
+          "frequency": 594
+        },
+        {
+          "rank": 38,
+          "word": "마음",
+          "frequency": 586
+        },
+        {
+          "rank": 39,
+          "word": "북한",
+          "frequency": 577
+        },
+        {
+          "rank": 40,
+          "word": "지역",
+          "frequency": 557
+        },
+        {
+          "rank": 41,
+          "word": "분야",
+          "frequency": 551
+        },
+        {
+          "rank": 42,
+          "word": "역사",
+          "frequency": 547
+        },
+        {
+          "rank": 43,
+          "word": "필요",
+          "frequency": 542
+        },
+        {
+          "rank": 44,
+          "word": "올해",
+          "frequency": 541
+        },
+        {
+          "rank": 45,
+          "word": "축하",
+          "frequency": 541
+        },
+        {
+          "rank": 46,
+          "word": "변화",
+          "frequency": 536
+        },
+        {
+          "rank": 47,
+          "word": "희망",
+          "frequency": 524
+        },
+        {
+          "rank": 48,
+          "word": "국가",
+          "frequency": 522
+        },
+        {
+          "rank": 49,
+          "word": "우리나라",
+          "frequency": 516
+        },
+        {
+          "rank": 50,
+          "word": "진심",
+          "frequency": 514
+        }
+      ]
+    },
+    {
+      "analyzer": "Kkma",
+      "execution_time_seconds": 274.09,
+      "speeches_per_second": 2.99,
+      "total_nouns": 174359,
+      "unique_nouns": 22149,
+      "avg_cpu_percent": 144.8,
+      "avg_gpu_percent": 0.0,
+      "avg_power_watts": 10.7,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "여러분",
+          "frequency": 733
+        },
+        {
+          "rank": 2,
+          "word": "감사",
+          "frequency": 722
+        },
+        {
+          "rank": 3,
+          "word": "세계",
+          "frequency": 657
+        },
+        {
+          "rank": 4,
+          "word": "국민",
+          "frequency": 640
+        },
+        {
+          "rank": 5,
+          "word": "경제",
+          "frequency": 611
+        },
+        {
+          "rank": 6,
+          "word": "국가",
+          "frequency": 600
+        },
+        {
+          "rank": 7,
+          "word": "나라",
+          "frequency": 590
+        },
+        {
+          "rank": 8,
+          "word": "생각",
+          "frequency": 573
+        },
+        {
+          "rank": 9,
+          "word": "대한",
+          "frequency": 567
+        },
+        {
+          "rank": 10,
+          "word": "대한민국",
+          "frequency": 562
+        },
+        {
+          "rank": 11,
+          "word": "민국",
+          "frequency": 561
+        },
+        {
+          "rank": 12,
+          "word": "발전",
+          "frequency": 533
+        },
+        {
+          "rank": 13,
+          "word": "정부",
+          "frequency": 533
+        },
+        {
+          "rank": 14,
+          "word": "모두",
+          "frequency": 495
+        },
+        {
+          "rank": 15,
+          "word": "노력",
+          "frequency": 494
+        },
+        {
+          "rank": 16,
+          "word": "사회",
+          "frequency": 489
+        },
+        {
+          "rank": 17,
+          "word": "이번",
+          "frequency": 489
+        },
+        {
+          "rank": 18,
+          "word": "자리",
+          "frequency": 466
+        },
+        {
+          "rank": 19,
+          "word": "성장",
+          "frequency": 450
+        },
+        {
+          "rank": 20,
+          "word": "위기",
+          "frequency": 442
+        },
+        {
+          "rank": 21,
+          "word": "한국",
+          "frequency": 432
+        },
+        {
+          "rank": 22,
+          "word": "존경",
+          "frequency": 417
+        },
+        {
+          "rank": 23,
+          "word": "미래",
+          "frequency": 412
+        },
+        {
+          "rank": 24,
+          "word": "사랑",
+          "frequency": 412
+        },
+        {
+          "rank": 25,
+          "word": "축하",
+          "frequency": 411
+        },
+        {
+          "rank": 26,
+          "word": "진심",
+          "frequency": 406
+        },
+        {
+          "rank": 27,
+          "word": "말씀",
+          "frequency": 385
+        },
+        {
+          "rank": 28,
+          "word": "기원",
+          "frequency": 358
+        },
+        {
+          "rank": 29,
+          "word": "협력",
+          "frequency": 357
+        },
+        {
+          "rank": 30,
+          "word": "때문",
+          "frequency": 349
+        },
+        {
+          "rank": 31,
+          "word": "극복",
+          "frequency": 349
+        },
+        {
+          "rank": 32,
+          "word": "기대",
+          "frequency": 346
+        },
+        {
+          "rank": 33,
+          "word": "하나",
+          "frequency": 345
+        },
+        {
+          "rank": 34,
+          "word": "정상",
+          "frequency": 338
+        },
+        {
+          "rank": 35,
+          "word": "국제",
+          "frequency": 331
+        },
+        {
+          "rank": 36,
+          "word": "문화",
+          "frequency": 329
+        },
+        {
+          "rank": 37,
+          "word": "회의",
+          "frequency": 328
+        },
+        {
+          "rank": 38,
+          "word": "마음",
+          "frequency": 325
+        },
+        {
+          "rank": 39,
+          "word": "시대",
+          "frequency": 325
+        },
+        {
+          "rank": 40,
+          "word": "사람",
+          "frequency": 323
+        },
+        {
+          "rank": 41,
+          "word": "변화",
+          "frequency": 321
+        },
+        {
+          "rank": 42,
+          "word": "대통령",
+          "frequency": 319
+        },
+        {
+          "rank": 43,
+          "word": "중요",
+          "frequency": 318
+        },
+        {
+          "rank": 44,
+          "word": "기회",
+          "frequency": 310
+        },
+        {
+          "rank": 45,
+          "word": "기여",
+          "frequency": 302
+        },
+        {
+          "rank": 46,
+          "word": "지원",
+          "frequency": 302
+        },
+        {
+          "rank": 47,
+          "word": "희망",
+          "frequency": 300
+        },
+        {
+          "rank": 48,
+          "word": "이제",
+          "frequency": 288
+        },
+        {
+          "rank": 49,
+          "word": "선진",
+          "frequency": 288
+        },
+        {
+          "rank": 50,
+          "word": "올해",
+          "frequency": 286
+        }
+      ]
+    },
+    {
+      "analyzer": "Komoran",
+      "execution_time_seconds": 47.34,
+      "speeches_per_second": 17.3,
+      "total_nouns": 250814,
+      "unique_nouns": 12172,
+      "avg_cpu_percent": 1.2,
+      "avg_gpu_percent": 0.0,
+      "avg_power_watts": 10.7,
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "세계",
+          "frequency": 3916
+        },
+        {
+          "rank": 2,
+          "word": "국민",
+          "frequency": 3444
+        },
+        {
+          "rank": 3,
+          "word": "여러분",
+          "frequency": 3020
+        },
+        {
+          "rank": 4,
+          "word": "경제",
+          "frequency": 2813
+        },
+        {
+          "rank": 5,
+          "word": "생각",
+          "frequency": 2597
+        },
+        {
+          "rank": 6,
+          "word": "대한민국",
+          "frequency": 2083
+        },
+        {
+          "rank": 7,
+          "word": "나라",
+          "frequency": 2067
+        },
+        {
+          "rank": 8,
+          "word": "정부",
+          "frequency": 1985
+        },
+        {
+          "rank": 9,
+          "word": "한국",
+          "frequency": 1942
+        },
+        {
+          "rank": 10,
+          "word": "국가",
+          "frequency": 1891
+        },
+        {
+          "rank": 11,
+          "word": "위기",
+          "frequency": 1847
+        },
+        {
+          "rank": 12,
+          "word": "사회",
+          "frequency": 1763
+        },
+        {
+          "rank": 13,
+          "word": "발전",
+          "frequency": 1625
+        },
+        {
+          "rank": 14,
+          "word": "감사",
+          "frequency": 1611
+        },
+        {
+          "rank": 15,
+          "word": "성장",
+          "frequency": 1495
+        },
+        {
+          "rank": 16,
+          "word": "대통령",
+          "frequency": 1330
+        },
+        {
+          "rank": 17,
+          "word": "협력",
+          "frequency": 1283
+        },
+        {
+          "rank": 18,
+          "word": "기업",
+          "frequency": 1199
+        },
+        {
+          "rank": 19,
+          "word": "노력",
+          "frequency": 1096
+        },
+        {
+          "rank": 20,
+          "word": "사람",
+          "frequency": 1093
+        },
+        {
+          "rank": 21,
+          "word": "국제",
+          "frequency": 1081
+        },
+        {
+          "rank": 22,
+          "word": "회의",
+          "frequency": 1058
+        },
+        {
+          "rank": 23,
+          "word": "때문",
+          "frequency": 1045
+        },
+        {
+          "rank": 24,
+          "word": "사랑",
+          "frequency": 1006
+        },
+        {
+          "rank": 25,
+          "word": "자리",
+          "frequency": 972
+        },
+        {
+          "rank": 26,
+          "word": "말씀",
+          "frequency": 971
+        },
+        {
+          "rank": 27,
+          "word": "정상",
+          "frequency": 967
+        },
+        {
+          "rank": 28,
+          "word": "변화",
+          "frequency": 921
+        },
+        {
+          "rank": 29,
+          "word": "미래",
+          "frequency": 920
+        },
+        {
+          "rank": 30,
+          "word": "이번",
+          "frequency": 919
+        },
+        {
+          "rank": 31,
+          "word": "존경",
+          "frequency": 899
+        },
+        {
+          "rank": 32,
+          "word": "문제",
+          "frequency": 884
+        },
+        {
+          "rank": 33,
+          "word": "녹색",
+          "frequency": 876
+        },
+        {
+          "rank": 34,
+          "word": "G20",
+          "frequency": 856
+        },
+        {
+          "rank": 35,
+          "word": "시대",
+          "frequency": 852
+        },
+        {
+          "rank": 36,
+          "word": "역사",
+          "frequency": 778
+        },
+        {
+          "rank": 37,
+          "word": "지역",
+          "frequency": 777
+        },
+        {
+          "rank": 38,
+          "word": "극복",
+          "frequency": 757
+        },
+        {
+          "rank": 39,
+          "word": "선진",
+          "frequency": 754
+        },
+        {
+          "rank": 40,
+          "word": "문화",
+          "frequency": 752
+        },
+        {
+          "rank": 41,
+          "word": "모두",
+          "frequency": 742
+        },
+        {
+          "rank": 42,
+          "word": "일자리",
+          "frequency": 725
+        },
+        {
+          "rank": 43,
+          "word": "축하",
+          "frequency": 721
+        },
+        {
+          "rank": 44,
+          "word": "양국",
+          "frequency": 702
+        },
+        {
+          "rank": 45,
+          "word": "시장",
+          "frequency": 686
+        },
+        {
+          "rank": 46,
+          "word": "지원",
+          "frequency": 682
+        },
+        {
+          "rank": 47,
+          "word": "금융",
+          "frequency": 673
+        },
+        {
+          "rank": 48,
+          "word": "산업",
+          "frequency": 665
+        },
+        {
+          "rank": 49,
+          "word": "기회",
+          "frequency": 627
+        },
+        {
+          "rank": 50,
+          "word": "기술",
+          "frequency": 622
+        }
+      ]
+    }
+  ]
+}

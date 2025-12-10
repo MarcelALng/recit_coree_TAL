@@ -265,15 +265,20 @@ python run_all_scrapers.py --reset
 
 ## 📝 Presidents Covered
 
-1. Yun Bo-seon (윤보선) - 1960-1962
-2. Park Chung-hee (박정희) - 1963-1979
-3. Chun Doo-hwan (전두환) - 1980-1988
-4. Roh Tae-woo (노태우) - 1988-1993
-5. Kim Young-sam (김영삼) - 1993-1998
-6. Kim Dae-jung (김대중) - 1998-2003
-7. Lee Myung-bak (이명박) - 2008-2013
-8. Park Geun-hye (박근혜) - 2013-2017
-9. Moon Jae-in (문재인) - 2017-2022
+1. Lee Seung-man (이승만) - 1948-1960
+2. Yun Bo-seon (윤보선) - 1960-1962
+3. Park Chung-hee (박정희) - 1963-1979
+4. Choi Kyu-hah (최규하) - 1979-1980
+5. Chun Doo-hwan (전두환) - 1980-1988
+6. Roh Tae-woo (노태우) - 1988-1993
+7. Kim Young-sam (김영삼) - 1993-1998
+8. Kim Dae-jung (김대중) - 1998-2003
+9. Roh Moo-hyun (노무현) - 2003-2008
+10. Lee Myung-bak (이명박) - 2008-2013
+11. Park Geun-hye (박근혜) - 2013-2017
+12. Moon Jae-in (문재인) - 2017-2022
+
+**Total: 12 presidents**
 
 ## 📄 License
 

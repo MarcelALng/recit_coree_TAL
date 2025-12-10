@@ -1,0 +1,19 @@
+Metric	Value
+Method	Gensim_Multicore
+Nb_Discours	8963
+Nb_Presidents	1
+Nb_Paragraphs	337910
+Nb_Topics	5
+Nb_CPU_Cores	8
+Execution_Time_Sec	179.09
+CPU_Usage_Percent	0.00
+Memory_Usage_Percent	5.44
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	10.74
+
+Topic_ID	Nb_Paragraphs	Top_Words
+1	114800	우리 | 있습니다. | 것입니다. | 수 | 합니다. | 우리는 | 세계 | 새로운 | 함께 | 우리의
+2	60868	수 | 것입니다. | 우리 | 있는 | 그 | 이 | 것은 | 우리가 | 할 | 것을
+3	51338	국민 | 여러분! | 이 | 여러분의 | 오늘 | , | 그리고 | 바입니다. | 여러분, | 것을
+4	62783	( | ) | . | 양국 | 두 | 대통령 | 한, | 것입니다 | 한국과 | 관계를
+5	48121	있습니다. | 것입니다. | 등 | 정부는 | 수 | 있는 | 대한 | 위한 | 위해 | 우리

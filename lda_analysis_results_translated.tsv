@@ -1,0 +1,17 @@
+Metric	Value
+Nb_Discours	8963
+Nb_Presidents	1
+Nb_Paragraphs	337910
+Nb_Topics	5
+Execution_Time_Sec	420.12
+CPU_Usage_Percent	0.00
+Memory_Usage_Percent	2.40
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	10.68
+
+Topic_ID	Nb_Paragraphs	Top_Words
+1	146340	위해 (pour) | 나는 (Je suis) | 다시 (encore) | 바랍니다 (s'il te plaît) | 함께 (ensemble) | 바입니다 (C'est un bar) | 것을 (que) | 우리 (nous) | 오늘 (aujourd'hui) | 여러분의 (ton)
+2	27593	대통령 (président) | 내외 (Intérieur et extérieur) | 귀빈 (VIP) | 친애하는 (cher) | 존경하는 (respectueux) | 감사합니다 (merci) | 있읍니다 (Il y a) | 그리고 (et) | 국민 (personnes) | 여러분 (tout le monde)
+3	60162	더욱 (plus) | 정부는 (Le gouvernement) | 위한 (pour) | 위해 (pour) | 우리의 (notre) | 있는 (présent) | 우리는 (nous sommes) | 합니다 (faire) | 우리 (nous) | 것입니다 (volonté)
+4	52450	하고 (faire) | 그러나 (cependant) | 것을 (que) | 것이 (C'est) | 하는 (faire) | 우리가 (nous) | 것은 (Le truc c'est) | 있는 (présent) | 우리 (nous) | 것입니다 (volonté)
+5	51365	우리는 (nous sommes) | 매우 (très) | 지난 (passé) | 생각합니다 (Je pense) | 새로운 (nouveau) | 것입니다 (volonté) | 있는 (présent) | 세계 (monde) | 우리 (nous) | 있습니다 (il y a)

@@ -1,0 +1,17 @@
+Metric	Value
+Nb_Discours	8963
+Nb_Presidents	1
+Nb_Paragraphs	337910
+Nb_Topics	5
+Execution_Time_Sec	420.12
+CPU_Usage_Percent	0.00
+Memory_Usage_Percent	2.40
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	10.68
+
+Topic_ID	Nb_Paragraphs	Top_Words
+1	146340	위해 | 나는 | 다시 | 바랍니다 | 함께 | 바입니다 | 것을 | 우리 | 오늘 | 여러분의
+2	27593	대통령 | 내외 | 귀빈 | 친애하는 | 존경하는 | 감사합니다 | 있읍니다 | 그리고 | 국민 | 여러분
+3	60162	더욱 | 정부는 | 위한 | 위해 | 우리의 | 있는 | 우리는 | 합니다 | 우리 | 것입니다
+4	52450	하고 | 그러나 | 것을 | 것이 | 하는 | 우리가 | 것은 | 있는 | 우리 | 것입니다
+5	51365	우리는 | 매우 | 지난 | 생각합니다 | 새로운 | 것입니다 | 있는 | 세계 | 우리 | 있습니다

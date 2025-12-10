@@ -1,0 +1,4 @@
+Method	Execution_Time_Sec	Speedup	CPU_%	GPU_%	GPU_Power_W	Topic_Quality
+Sklearn_CPU	420.12	1.00x	0.00	0.00	10.68	Good
+PyTorch_GPU	8.65	48.57x	0.00	0.00	113.51	Poor
+Gensim_Multicore	Running...	-	-	-	-	Good

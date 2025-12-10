@@ -1,0 +1,22 @@
+Metric	Value
+Nb_Discours	8963
+Nb_Presidents	1
+Nb_Paragraphs	337910
+Nb_Topics	10
+Execution_Time_Sec	383.11
+CPU_Usage_Percent	0.00
+Memory_Usage_Percent	2.79
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	10.65
+
+Topic_ID	Nb_Paragraphs	Top_Words
+1	133874	함께 (ensemble) | 되기를 (être) | 이번 (cette fois) | 바랍니다 (s'il te plaît) | 국민의 (du peuple) | 가장 (la plupart) | 되었습니다 (C'est fait) | 우리 (nous) | 세계 (monde) | 있습니다 (il y a)
+2	20269	같이 (ensemble) | 여러 (plusieurs) | 우리가 (nous) | 이러한 (tel) | 지금 (maintenant) | 감사합니다 (merci) | 것입니다 (volonté) | 있읍니다 (Il y a) | 우리 (nous) | 있는 (présent)
+3	23195	민족의 (national) | 이러한 (tel) | 또한 (aussi) | 노력을 (effort) | 더욱 (plus) | 위한 (pour) | 우리 (nous) | 우리는 (nous sommes) | 우리의 (notre) | 것입니다 (volonté)
+4	19077	모든 (chaque) | 있는 (présent) | 것이 (C'est) | 것이다 (volonté) | 하는 (faire) | 우리가 (nous) | 것을 (que) | 것은 (Le truc c'est) | 우리 (nous) | 것입니다 (volonté)
+5	21138	함께 (ensemble) | 협력을 (coopération) | 아시아 (Asie) | 나는 (Je suis) | 새로운 (nouveau) | 평화와 (la paix et) | 지난 (passé) | 양국 (les deux pays) | 것입니다 (volonté) | 있습니다 (il y a)
+6	26304	더욱 (plus) | 대한 (pour) | 있는 (présent) | 위한 (pour) | 위해 (pour) | 바랍니다 (s'il te plaît) | 있습니다 (il y a) | 있도록 (de sorte que) | 정부는 (Le gouvernement) | 것입니다 (volonté)
+7	28734	이런 (ce) | 때문에 (parce que) | 하는 (faire) | 그러나 (cependant) | 것이 (C'est) | 대통령 (président) | 것은 (Le truc c'est) | 생각합니다 (Je pense) | 있는 (présent) | 있습니다 (il y a)
+8	21929	자리에 (en place) | 것을 (que) | 귀빈 (VIP) | 친애하는 (cher) | 존경하는 (respectueux) | 바입니다 (C'est un bar) | 그리고 (et) | 여러분의 (ton) | 국민 (personnes) | 여러분 (tout le monde)
+9	24906	국민의 (du peuple) | 함께 (ensemble) | 있는 (présent) | 이제 (maintenant) | 우리는 (nous sommes) | 있습니다 (il y a) | 새로운 (nouveau) | 것입니다 (volonté) | 우리 (nous) | 합니다 (faire)
+10	18484	나는 (Je suis) | 생각합니다 (Je pense) | 위해 (pour) | 우리 (nous) | 드립니다 (Nous vous le donnons) | 깊은 (profond) | 진심으로 (sincèrement) | 것을 (que) | 다시 (encore) | 오늘 (aujourd'hui)

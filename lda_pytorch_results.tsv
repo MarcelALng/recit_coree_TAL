@@ -1,0 +1,18 @@
+Metric	Value
+Method	PyTorch_GPU
+Nb_Discours	8963
+Nb_Presidents	1
+Nb_Paragraphs	337910
+Nb_Topics	5
+Execution_Time_Sec	8.65
+CPU_Usage_Percent	0.00
+Memory_Usage_Percent	4.43
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	113.51
+
+Topic_ID	Nb_Paragraphs	Top_Words
+1	116430	그리고 | 위해 | 것을 | 우리는 | 합니다 | 여러분 | 있는 | 있습니다 | 우리 | 것입니다
+2	0	그리고 | 위해 | 것을 | 우리는 | 합니다 | 여러분 | 있는 | 있습니다 | 우리 | 것입니다
+3	220541	그리고 | 위해 | 것을 | 우리는 | 합니다 | 여러분 | 있는 | 있습니다 | 우리 | 것입니다
+4	0	그리고 | 위해 | 것을 | 우리는 | 합니다 | 여러분 | 있는 | 있습니다 | 우리 | 것입니다
+5	939	그리고 | 위해 | 것을 | 우리는 | 합니다 | 여러분 | 있는 | 있습니다 | 우리 | 것입니다

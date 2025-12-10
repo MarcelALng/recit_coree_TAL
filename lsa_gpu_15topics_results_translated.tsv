@@ -1,28 +1,28 @@
 Metric	Value
 Method	LSA_GPU_Kmeans
-Nb_Discours	8963
-Nb_Presidents	11
-Nb_Paragraphs	337910
+Nb_Discours	9984
+Nb_Presidents	12
+Nb_Paragraphs	345491
 Nb_Topics	15
-Execution_Time_Sec	9.39
+Execution_Time_Sec	9.75
 CPU_Usage_Percent	0.00
-Memory_Usage_Percent	10.25
+Memory_Usage_Percent	10.33
 GPU_Usage_Percent	0.00
-GPU_Power_Watts	63.34
+GPU_Power_Watts	104.21
 
 Topic_ID	Nb_Paragraphs	Top_Words
-1	9625	그리고 (et) | 여러분 (tout le monde) | 귀빈 (VIP) | 내외 (Intérieur et extérieur) | 것입니다 (volonté) | 우리 (nous) | 내외귀빈 (invités de marque) | 발전 (production d'électricité) | 번영 (prospérité) | 자리에 (en place)
-2	13332	여러분 (tout le monde) | 친애하는 (cher) | 존경하는 (respectueux) | 귀빈 (VIP) | 내외 (Intérieur et extérieur) | 동포 (compatriotes) | 의원 (membre) | 사랑하는 (affectueux) | 졸업생 (diplômé) | 안녕하십니까 (Bonjour)
-3	56915	감사합니다 (merci) | 합니다 (faire) | 대통령 (président) | 각하 (congédiement) | 존경하는 (respectueux) | 총리 (Premier ministre) | 내외분 (Intérieur et extérieur) | 위해서는 (Pour) | 나가야 (je dois sortir) | 되어야 (Devrait être)
-4	37863	여러분의 (ton) | 위해 (pour) | 오늘 (aujourd'hui) | 함께 (ensemble) | 바랍니다 (s'il te plaît) | 진심으로 (sincèrement) | 위한 (pour) | 다시 (encore) | 또한 (aussi) | 나는 (Je suis)
-5	17404	힘찬 (fougueux) | 등의 (etc.) | 뒤에 (derrière) | 드리고 (je te le donne) | 드리는 (je te le donne) | 드립니다 (Nous vous le donnons) | 든든한 (fort) | 듣고 (écouter) | 들고 (portant) | 들어 (écouter)
-6	30285	것을 (que) | 생각합니다 (Je pense) | 나는 (Je suis) | 대한 (pour) | 모든 (chaque) | 특히 (en particulier) | 매우 (très) | 많은 (beaucoup) | 저는 (Je suis) | 것으로 (comme)
-7	24471	있습니다 (il y a) | 우리 (nous) | 지금 (maintenant) | 새로운 (nouveau) | 세계 (monde) | 위해 (pour) | 이제 (maintenant) | 한국은 (La Corée est) | 되고 (devenir) | 많은 (beaucoup)
-8	21361	것입니다 (volonté) | 나갈 (sortir) | 정부는 (Le gouvernement) | 있을 (Il y aura) | 더욱 (plus) | 위한 (pour) | 있도록 (de sorte que) | 우리의 (notre) | 위해 (pour) | 모든 (chaque)
-9	20400	우리 (nous) | 것입니다 (volonté) | 모두 (chaque) | 국민의 (du peuple) | 합니다 (faire) | 나라의 (du pays) | 나라 (pays) | 민족의 (national) | 모두가 (tout le monde) | 함께 (ensemble)
-10	9492	국민 (personnes) | 여러분 (tout le monde) | 존경하는 (respectueux) | 친애하는 (cher) | 國民 (les gens de la campagne) | 사랑하는 (affectueux) | 모두가 (tout le monde) | 우리 (nous) | 여러분의 (ton) | 그리고 (et)
-11	6637	있는 (présent) | 것입니다 (volonté) | 우리 (nous) | 우리가 (nous) | 우리의 (notre) | 것은 (Le truc c'est) | 우리는 (nous sommes) | 모든 (chaque) | 이러한 (tel) | 지금 (maintenant)
-12	11658	있는 (présent) | 우리 (nous) | 있습니다 (il y a) | 것은 (Le truc c'est) | 합니다 (faire) | 우리가 (nous) | 지금 (maintenant) | 생각합니다 (Je pense) | 하고 (faire) | 것이 (C'est)
-13	24476	우리는 (nous sommes) | 우리의 (notre) | 이제 (maintenant) | 있읍니다 (Il y a) | 지난 (passé) | 세계 (monde) | 지금 (maintenant) | 것입니다 (volonté) | 그러나 (cependant) | 있습니다 (il y a)
-14	23538	힘찬 (fougueux) | 등의 (etc.) | 뒤에 (derrière) | 드리고 (je te le donne) | 드리는 (je te le donne) | 드립니다 (Nous vous le donnons) | 든든한 (fort) | 듣고 (écouter) | 들고 (portant) | 들어 (écouter)
-15	30453	하는 (faire) | 것은 (Le truc c'est) | 우리가 (nous) | 것이 (C'est) | 하고 (faire) | 그러나 (cependant) | 것이다 (volonté) | 것을 (que) | 이런 (ce) | 없습니다 (n'existe pas)
+1	1213	사랑하는 (affectueux) | 내외 (Intérieur et extérieur) | 귀빈 (VIP) | 마음 (esprit) | 참석하신 (assisté) | 환영합니다 (accueillir) | 여러분을 (tout le monde) | 나라 (pays) | 전합니다 (Je vous le dis) | 자리에 (en place)
+2	46144	하는 (faire) | 것은 (Le truc c'est) | 우리가 (nous) | 것이 (C'est) | 것을 (que) | 있는 (présent) | 것이다 (volonté) | 하고 (faire) | 모든 (chaque) | 그러나 (cependant)
+3	14061	합니다 (faire) | 우리 (nous) | 우리는 (nous sommes) | 위해서는 (Pour) | 나가야 (je dois sortir) | 있는 (présent) | 해야 (devoir) | 이제 (maintenant) | 되어야 (Devrait être) | 함께 (ensemble)
+4	3520	국민 (personnes) | 여러분 (tout le monde) | 존경하는 (respectueux) | 사랑하는 (affectueux) | 그리고 (et) | 안녕하십니까 (Bonjour) | 의원 (membre) | 내외 (Intérieur et extérieur) | 귀빈 (VIP) | 국회의원 (député)
+5	28127	있습니다 (il y a) | 우리 (nous) | 지금 (maintenant) | 있는 (présent) | 새로운 (nouveau) | 세계 (monde) | 우리는 (nous sommes) | 위해 (pour) | 이제 (maintenant) | 많은 (beaucoup)
+6	57173	여러분의 (ton) | 오늘 (aujourd'hui) | 위해 (pour) | 나는 (Je suis) | 함께 (ensemble) | 바랍니다 (s'il te plaît) | 것을 (que) | 바입니다 (C'est un bar) | 위한 (pour) | 또한 (aussi)
+7	6069	국민 (personnes) | 國民 (les gens de la campagne) | 모두가 (tout le monde) | 우리 (nous) | 여러분의 (ton) | 것입니다 (volonté) | 합니다 (faire) | 함께 (ensemble) | 있는 (présent) | 여러분께 (À tout le monde)
+8	25504	우리는 (nous sommes) | 우리의 (notre) | 있읍니다 (Il y a) | 이제 (maintenant) | 세계 (monde) | 이러한 (tel) | 그러나 (cependant) | 되었습니다 (C'est fait) | 것입니다 (volonté) | 지금 (maintenant)
+9	23511	우리 (nous) | 것입니다 (volonté) | 있는 (présent) | 국민의 (du peuple) | 모두 (chaque) | 나라의 (du pays) | 나라 (pays) | 민족의 (national) | 것을 (que) | 것은 (Le truc c'est)
+10	18532	힘찬 (fougueux) | 때도 (Même quand) | 등의 (etc.) | 등이 (etc.) | 디지털 (numérique) | 딛고 (Enjamber) | 따뜻한 (chaud) | 따라 (selon) | 따라서 (ainsi) | 따른 (selon)
+11	62228	감사합니다 (merci) | 있는 (présent) | 대통령이승만박사담화집 (Collection de discours présidentiels du Dr Syngman Rhee) | 대통령 (président) | 그리고 (et) | 각하 (congédiement) | 공보실 (Bureau des affaires publiques) | 1953 (1953) | 공보처 (Bureau d'information publique) | 존경하는 (respectueux)
+12	16662	힘찬 (fougueux) | 때도 (Même quand) | 등의 (etc.) | 등이 (etc.) | 디지털 (numérique) | 딛고 (Enjamber) | 따뜻한 (chaud) | 따라 (selon) | 따라서 (ainsi) | 따른 (selon)
+13	13229	여러분 (tout le monde) | 귀빈 (VIP) | 존경하는 (respectueux) | 그리고 (et) | 내외 (Intérieur et extérieur) | 의원 (membre) | 동포 (compatriotes) | 내외귀빈 (invités de marque) | 사랑하는 (affectueux) | 반갑습니다 (Ravi de vous rencontrer)
+14	3334	친애하는 (cher) | 여러분 (tout le monde) | 국민 (personnes) | 졸업생 (diplômé) | 장병 (soldat) | 그리고 (et) | 전국의 (partout dans le pays) | 동포 (compatriotes) | 동지 (camarades) | 경찰관 (policier)
+15	26184	것입니다 (volonté) | 있는 (présent) | 나갈 (sortir) | 있을 (Il y aura) | 정부는 (Le gouvernement) | 더욱 (plus) | 위한 (pour) | 우리의 (notre) | 모든 (chaque) | 우리가 (nous)

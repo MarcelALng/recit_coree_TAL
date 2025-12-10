@@ -18,7 +18,7 @@ start_time = time.time()
 process = psutil.Process()
 
 # Load speeches
-with open("presidential_speeches_texts_cleaned.json", "r", encoding="utf-8") as f:
+with open("presidential_speeches_texts_cleaned_complete.json", "r", encoding="utf-8") as f:
     speeches = json.load(f)
 
 # Extract unique presidents from URLs

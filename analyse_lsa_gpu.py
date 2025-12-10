@@ -21,15 +21,13 @@ process = psutil.Process()
 with open("presidential_speeches_texts_cleaned.json", "r", encoding="utf-8") as f:
     speeches = json.load(f)
 
-# Extract unique presidents
+# Extract unique presidents from URLs
 presidents = set()
 for speech in speeches:
-    if "president" in speech:
-        presidents.add(speech["president"])
-    elif "url" in speech:
-        url_parts = speech["url"].split("/")
-        if len(url_parts) > 4:
-            presidents.add(url_parts[4])
+    url = speech.get('url', '')
+    if 'activePresident=' in url:
+        pres = url.split('activePresident=')[1].split('&')[0]
+        presidents.add(pres)
 
 nb_speeches = len(speeches)
 nb_presidents = len(presidents) if presidents else "Unknown"
@@ -59,34 +57,19 @@ U, S, Vt = torch.linalg.svd(tfidf_dense, full_matrices=False)
 # Keep only top n_components
 lsa_matrix = U[:, :n_components] @ torch.diag(S[:n_components])
 
-# Normalize
-lsa_matrix = lsa_matrix / torch.norm(lsa_matrix, dim=1, keepdim=True)
+# Normalize (add epsilon to avoid division by zero)
+norms = torch.norm(lsa_matrix, dim=1, keepdim=True)
+lsa_matrix = lsa_matrix / (norms + 1e-10)
 
 # K-means clustering on GPU
 print("Clustering with K-means on GPU...")
 n_clusters = 15
 max_iter = 300
 
-# Initialize centroids using k-means++
-def kmeans_plusplus_init(X, n_clusters):
-    n_samples = X.shape[0]
-    centroids = torch.zeros(n_clusters, X.shape[1], device=X.device)
-    
-    # First centroid randomly
-    centroids[0] = X[torch.randint(0, n_samples, (1,))]
-    
-    for i in range(1, n_clusters):
-        # Compute distances to nearest centroid
-        distances = torch.cdist(X, centroids[:i]).min(dim=1)[0]
-        # Sample next centroid proportional to distance squared
-        probs = distances ** 2
-        probs = probs / probs.sum()
-        next_idx = torch.multinomial(probs, 1)
-        centroids[i] = X[next_idx]
-    
-    return centroids
-
-centroids = kmeans_plusplus_init(lsa_matrix, n_clusters)
+# Initialize centroids randomly (simpler and more stable than k-means++)
+torch.manual_seed(42)
+indices = torch.randperm(lsa_matrix.shape[0], device=lsa_matrix.device)[:n_clusters]
+centroids = lsa_matrix[indices].clone()
 
 for iteration in range(max_iter):
     # Assign to nearest centroid

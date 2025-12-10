@@ -1,14 +1,14 @@
 Metric	Value
 Method	LSA_CPU_Kmeans
 Nb_Discours	8963
-Nb_Presidents	1
+Nb_Presidents	11
 Nb_Paragraphs	337910
 Nb_Topics	15
-Execution_Time_Sec	15.48
+Execution_Time_Sec	15.66
 CPU_Usage_Percent	0.00
-Memory_Usage_Percent	3.31
+Memory_Usage_Percent	3.34
 GPU_Usage_Percent	0.00
-GPU_Power_Watts	10.64
+GPU_Power_Watts	10.69
 
 Topic_ID	Nb_Paragraphs	Top_Words
 1	4156	감사합니다 (merci) | 주셔서 (Merci) | 대단히 (très) | 여러분 (tout le monde) | 기원합니다 (J'espère) | 여러분의 (ton) | 다시 (encore) | 한번 (une fois) | 오늘 (aujourd'hui) | 모두의 (tout le monde)

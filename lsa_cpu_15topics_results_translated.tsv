@@ -1,0 +1,28 @@
+Metric	Value
+Method	LSA_CPU_Kmeans
+Nb_Discours	8963
+Nb_Presidents	1
+Nb_Paragraphs	337910
+Nb_Topics	15
+Execution_Time_Sec	15.48
+CPU_Usage_Percent	0.00
+Memory_Usage_Percent	3.31
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	10.64
+
+Topic_ID	Nb_Paragraphs	Top_Words
+1	4156	감사합니다 (merci) | 주셔서 (Merci) | 대단히 (très) | 여러분 (tout le monde) | 기원합니다 (J'espère) | 여러분의 (ton) | 다시 (encore) | 한번 (une fois) | 오늘 (aujourd'hui) | 모두의 (tout le monde)
+2	121394	대통령 (président) | 각하 (congédiement) | 국민 (personnes) | 대통령이승만박사담화집 (Collection de discours présidentiels du Dr Syngman Rhee) | 존경하는 (respectueux) | 공보실 (Bureau des affaires publiques) | 1953 (1953) | 공보처 (Bureau d'information publique) | 총리 (Premier ministre) | 내외분 (Intérieur et extérieur)
+3	24826	하는 (faire) | 것은 (Le truc c'est) | 우리가 (nous) | 것이 (C'est) | 하고 (faire) | 그러나 (cependant) | 것이다 (volonté) | 없습니다 (n'existe pas) | 것을 (que) | 이런 (ce)
+4	14150	위한 (pour) | 위해 (pour) | 정부는 (Le gouvernement) | 있도록 (de sorte que) | 더욱 (plus) | 바랍니다 (s'il te plaît) | 통해 (à travers) | 특히 (en particulier) | 이를 (Ce) | 나가겠습니다 (je sors)
+5	21865	있습니다 (il y a) | 우리 (nous) | 지금 (maintenant) | 새로운 (nouveau) | 세계 (monde) | 되고 (devenir) | 이제 (maintenant) | 위해 (pour) | 많은 (beaucoup) | 한국은 (La Corée est)
+6	19740	것입니다 (volonté) | 나갈 (sortir) | 있을 (Il y aura) | 정부는 (Le gouvernement) | 더욱 (plus) | 위한 (pour) | 우리의 (notre) | 있도록 (de sorte que) | 모든 (chaque) | 대한 (pour)
+7	13273	또한 (aussi) | 지난 (passé) | 세계 (monde) | 새로운 (nouveau) | 되었습니다 (C'est fait) | 10 (10) | 우리는 (nous sommes) | 이제 (maintenant) | 우리의 (notre) | 왔습니다 (est venu)
+8	18184	여러분의 (ton) | 오늘 (aujourd'hui) | 함께 (ensemble) | 진심으로 (sincèrement) | 위해 (pour) | 바입니다 (C'est un bar) | 다시 (encore) | 기원합니다 (J'espère) | 축하합니다 (Félicitations) | 바랍니다 (s'il te plaît)
+9	15963	여러분 (tout le monde) | 국민 (personnes) | 존경하는 (respectueux) | 친애하는 (cher) | 귀빈 (VIP) | 사랑하는 (affectueux) | 내외 (Intérieur et extérieur) | 의원 (membre) | 동포 (compatriotes) | 그리고 (et)
+10	8466	그리고 (et) | 여러분 (tout le monde) | 귀빈 (VIP) | 것입니다 (volonté) | 내외 (Intérieur et extérieur) | 우리 (nous) | 내외귀빈 (invités de marque) | 있습니다 (il y a) | 위해 (pour) | 발전 (production d'électricité)
+11	15011	있는 (présent) | 것입니다 (volonté) | 우리 (nous) | 우리가 (nous) | 있습니다 (il y a) | 것은 (Le truc c'est) | 지금 (maintenant) | 하고 (faire) | 것이 (C'est) | 우리의 (notre)
+12	17532	것을 (que) | 나는 (Je suis) | 생각합니다 (Je pense) | 모든 (chaque) | 대한 (pour) | 매우 (très) | 많은 (beaucoup) | 바입니다 (C'est un bar) | 저는 (Je suis) | 것으로 (comme)
+13	12806	우리는 (nous sommes) | 우리의 (notre) | 있읍니다 (Il y a) | 이제 (maintenant) | 것입니다 (volonté) | 지금 (maintenant) | 그러나 (cependant) | 하겠읍니다 (je le ferai) | 우리가 (nous) | 이러한 (tel)
+14	12074	합니다 (faire) | 우리 (nous) | 우리는 (nous sommes) | 위해서는 (Pour) | 나가야 (je dois sortir) | 해야 (devoir) | 있는 (présent) | 이제 (maintenant) | 되어야 (Devrait être) | 함께 (ensemble)
+15	18470	우리 (nous) | 것입니다 (volonté) | 모두 (chaque) | 국민의 (du peuple) | 나라의 (du pays) | 모두가 (tout le monde) | 나라 (pays) | 민족의 (national) | 국민 (personnes) | 것을 (que)

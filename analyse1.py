@@ -38,7 +38,7 @@ MY_RS = 42
 vectorizer = CountVectorizer(max_features=2000, min_df=2, max_df=0.8)
 doc_term_matrix = vectorizer.fit_transform(paragraphs)
 
-lda = LatentDirichletAllocation(n_components=10, random_state=MY_RS)
+lda = LatentDirichletAllocation(n_components=15, random_state=MY_RS)
 lda.fit(doc_term_matrix)
 
 # Get top words per topic
@@ -87,14 +87,14 @@ except:
     pass
 
 # Save results to TSV
-tsv_filename = "lda_analysis_10topics_results.tsv"
+tsv_filename = "lda_analysis_15topics_results.tsv"
 with open(tsv_filename, 'w', encoding='utf-8') as f:
     # Header
     f.write("Metric\tValue\n")
     f.write(f"Nb_Discours\t{nb_speeches}\n")
     f.write(f"Nb_Presidents\t{nb_presidents}\n")
     f.write(f"Nb_Paragraphs\t{nb_paragraphs}\n")
-    f.write(f"Nb_Topics\t10\n")
+    f.write(f"Nb_Topics\t15\n")
     f.write(f"Execution_Time_Sec\t{execution_time:.2f}\n")
     f.write(f"CPU_Usage_Percent\t{cpu_percent:.2f}\n")
     f.write(f"Memory_Usage_Percent\t{memory_percent:.2f}\n")

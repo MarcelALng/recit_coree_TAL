@@ -93,7 +93,25 @@ python git_push_results.py --dry-run
 python git_push_results.py --config my_config.json
 ```
 
-## ⚙️ Configuration
+### TXM Export
+ 
+ **Export all speeches to TXM format:**
+ ```bash
+ source venv/bin/activate
+ python export_to_txm.py
+ ```
+ 
+ **Export with a limit (for testing):**
+ ```bash
+ python export_to_txm.py --limit 5
+ ```
+ 
+ **Export a specific president:**
+ ```bash
+ python export_to_txm.py --president Lee_Seung_Man
+ ```
+ 
+ ## ⚙️ Configuration
 
 The `config.json` file controls all aspects of the automation:
 
@@ -127,12 +145,15 @@ The `config.json` file controls all aspects of the automation:
 ```
 
 ## 📁 Output Files
-
-### JSON Data Files
-- `president_links_*.json` - Article links for each president
-- `president_texts_*.json` - Full text content for each president
-
-### Log Files
+ 
+ ### JSON Data Files
+ - `president_links_*.json` - Article links for each president
+ - `president_texts_*.json` - Full text content for each president
+ 
+ ### TXM Export (XML)
+ - `txm_export/*.xml` - Linguistically annotated XML files (Kkma PoS tagging) ready for import into TXM.
+ 
+ ### Log Files
 - `scraping_log.txt` - Detailed execution log
 - `scraping_summary_*.json` - Execution summary with statistics
 - `.scraping_state.json` - Resume state (auto-generated)

@@ -93,24 +93,49 @@ python git_push_results.py --dry-run
 python git_push_results.py --config my_config.json
 ```
 
-### TXM Export
+### TXM Export & Analysis
  
- **Export all speeches to TXM format:**
+ **1. Export all speeches to TXM format (XML-TEI):**
  ```bash
  source venv/bin/activate
  python export_to_txm.py
  ```
  
- **Export with a limit (for testing):**
+ **2. Run Linguistic Analysis on XML:**
  ```bash
- python export_to_txm.py --limit 5
+ python analyze_txm_xml.py
  ```
- 
- **Export a specific president:**
+ This script generates global statistics (tokens, sentences, TTR) per president.
+
+ **3. Advanced Specificity Analysis (Thematic Signatures):**
  ```bash
- python export_to_txm.py --president Lee_Seung_Man
+ python analyze_txm_specificity.py
  ```
- 
+ Calculates Lafon's specificity index to identify unique keywords per president.
+
+ **4. Cross-Presidential Comparison:**
+ ```bash
+ python compare_presidents_txm.py
+ ```
+ Identifies stable vocabulary (commonalities) and high-variance terms (differences) across the 12 presidents.
+
+ **5. UTILS: Bridging TXM back to Python:**
+ ```bash
+ python read_txm_csv.py --file my_txm_export.csv
+ ```
+ Utility to load TXM CSV exports (lexicons, specificities) into Pandas DataFrames.
+
+ **6. Simple Concordance (KWIC):**
+ ```bash
+ python simple_concordance.py --query "평화"
+ ```
+ Quick keyword-in-context search directly on JSON files.
+
+## 📝 Research Report
+
+A complete research report synthesizing the results is available in LaTeX format:
+- `rapport_presidentiel_coree.tex`: Academic paper (ACL format) documenting the methodology, statistics, and findings of the study.
+
  ## ⚙️ Configuration
 
 The `config.json` file controls all aspects of the automation:
@@ -152,8 +177,11 @@ The `config.json` file controls all aspects of the automation:
  
  ### TXM Export (XML)
  - `txm_export/*.xml` - Linguistically annotated XML files (Kkma PoS tagging) ready for import into TXM.
+ ### Analysis Results
+ - `president_comparison_results.csv` - Summary of statistical commonalities and differences across presidents.
+ - `rapport_presidentiel_coree.tex` - Final research report (LaTeX).
  
- ### Log Files
+  ### Log Files
 - `scraping_log.txt` - Detailed execution log
 - `scraping_summary_*.json` - Execution summary with statistics
 - `.scraping_state.json` - Resume state (auto-generated)

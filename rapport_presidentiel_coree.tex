@@ -102,6 +102,9 @@ Le modèle LDA (15 thèmes) a identifié des clusters sémantiques cohérents. L
 \subsection{Comparaison LSA vs LDA}
 L'Analyse Sémantique Latente (LSA) a été testée en parallèle. Alors que LDA offre une meilleure interprétabilité des thèmes "humains", LSA s'est avérée plus efficace pour identifier les structures de co-occurrence de haut niveau à travers les paragraphes courts. L'utilisation de GPU via PyTorch a réduit le temps de traitement de 40\% par rapport aux implémentations CPU classiques (scikit-learn).
 
+\subsection{Analyse Factorielle des Correspondances (AFC)}
+Pour visualiser les proximités globales entre présidents, nous avons réalisé une AFC sur les termes les plus fréquents (Fig. \ref{fig:afc} en annexe). Le premier axe (53,6 \% d'inertie) oppose nettement Lee Seung-man aux présidents de l'ère moderne, marquant une rupture majeure entre un discours de fondation personnalisé et une parole institutionnelle globalisée. Le second axe (17,7 \%) isole les mandats de Park Chung-hee et Chun Doo-hwan, caractérisés par un lexique du développement et de l'unité nationale (\textit{Construction}, \textit{Nation}).
+
 \subsection{Posture Énonciative et Leadership}
 L'analyse des formes de l'énonciation, notamment via les pronoms de la première personne, révèle un contraste marqué entre les périodes. Les présidents fondateurs (Lee Seung-man, Park Chung-hee) présentent une fréquence élevée du "Nous" (\textit{uri}), dépassant les 11 occurrences pour 1000 mots, ce qui traduit une rhétorique de mobilisation collective et d'effacement de l'individu derrière l'unité nationale. 
 
@@ -166,6 +169,13 @@ Cette recherche valide l'efficacité des chaînes de traitement TAL sur le coré
     \includegraphics[width=0.9\textwidth]{temporal_trends.png}
     \caption{Évolution temporelle des concepts clés (fréquence relative pour 10 000 mots).}
     \label{fig:trends}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{lexical_afc_map.png}
+    \caption{Plan factoriel de l'Analyse des Correspondances (AFC) : proximités entre présidents et mots-clés.}
+    \label{fig:afc}
 \end{figure}
 
 \begin{figure}[h]

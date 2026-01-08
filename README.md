@@ -37,6 +37,12 @@ Nous avons utilisé des modèles probabilistes pour extraire les thématiques in
 
 ---
 
+### Analyse Factorielle des Correspondances (AFC)
+Plan factoriel montrant les proximités statistiques entre les présidents et leur vocabulaire. L'axe horizontal illustre la transition historique entre le discours de fondation et le discours institutionnel moderne.
+![AFC Map](lexical_afc_map.png)
+
+---
+
 ## ⚙️ Documentation Technique
 
 ### Architecture du Corpus

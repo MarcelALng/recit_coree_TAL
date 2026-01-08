@@ -90,10 +90,26 @@ def generate_heatmap(xml_dir, output_img):
             
     top_words_list = sorted(list(top_words))
     
-    # Filter only words we can translate or use Korean phonetics if unknown
-    translated_labels = [f"{TRANSLATIONS.get(w, w)} ({w})" if w in TRANSLATIONS else w for w in top_words_list]
-    # For safety on systems without fonts, just use TRANSLATIONS or phonetics
-    clean_labels = [TRANSLATIONS.get(w, w) for w in top_words_list]
+    # Use googletrans for anything missing in manual TRANSLATIONS
+    print("Translating labels...")
+    from googletrans import Translator
+    translator = Translator()
+    
+    clean_labels = []
+    for w in top_words_list:
+        if w in TRANSLATIONS:
+            clean_labels.append(TRANSLATIONS[w])
+        else:
+            try:
+                trans = translator.translate(w, src='ko', dest='fr').text
+                # Clean non-ascii just in case
+                clean_trans = trans.encode('ascii', 'ignore').decode('ascii').strip()
+                if not clean_trans: clean_trans = "Concept"
+                clean_labels.append(clean_trans)
+                # Proactively update TRANSLATIONS for next time if we were saving it
+                TRANSLATIONS[w] = clean_trans
+            except:
+                clean_labels.append("Terme")
     
     matrix_data = []
     for word in top_words_list:

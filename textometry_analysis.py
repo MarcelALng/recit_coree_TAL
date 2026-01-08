@@ -177,8 +177,8 @@ for topic_idx in range(n_topics):
 fig.delaxes(axes[5])
 
 plt.tight_layout()
-plt.savefig('lda_topics.png', dpi=150, bbox_inches='tight')
-print("\n💾 Graphique sauvegardé: lda_topics.png")
+plt.savefig('lda_topics_lee.png', dpi=150, bbox_inches='tight')
+print("\n💾 Graphique sauvegardé: lda_topics_lee.png")
 
 # ========== 3. LSA (Latent Semantic Analysis) ==========
 print("\n" + "="*80)
@@ -232,8 +232,8 @@ for comp_idx in range(n_components):
 
 fig.delaxes(axes[5])
 plt.tight_layout()
-plt.savefig('lsa_components.png', dpi=150, bbox_inches='tight')
-print("\n💾 Graphique sauvegardé: lsa_components.png")
+plt.savefig('lsa_components_lee.png', dpi=150, bbox_inches='tight')
+print("\n💾 Graphique sauvegardé: lsa_components_lee.png")
 
 # ========== SAUVEGARDER LES RÉSULTATS ==========
 results = {

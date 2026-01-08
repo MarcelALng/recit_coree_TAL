@@ -4,16 +4,16 @@ Nb_Discours	9984
 Nb_Presidents	12
 Nb_Paragraphs	345491
 Nb_Topics	15
-Execution_Time_Sec	11.63
+Execution_Time_Sec	10.11
 CPU_Usage_Percent	0.00
-Memory_Usage_Percent	9.89
+Memory_Usage_Percent	10.13
 GPU_Usage_Percent	0.00
-GPU_Power_Watts	32.62
+GPU_Power_Watts	43.92
 
 Topic_ID	Nb_Paragraphs	Top_Words
-1	669	친애하는 (cher) | 국민 (personnes) | 여러분 (tout le monde) | 그리고 (et) | 전국의 (?) | 자리에 (en place) | 참석하신 (assisté) | 국회의원 (député) | 내외귀빈 (invités de marque) | 장병 (soldat)
+1	669	친애하는 (cher) | 국민 (personnes) | 여러분 (tout le monde) | 그리고 (et) | 전국의 (partout dans le pays) | 자리에 (?) | 참석하신 (assisté) | 국회의원 (député) | 내외귀빈 (invités de marque) | 장병 (soldat)
 2	41950	하는 (faire) | 것은 (Le truc c'est) | 우리가 (nous) | 것이 (C'est) | 것을 (que) | 것이다 (volonté) | 하고 (faire) | 모든 (chaque) | 그러나 (cependant) | 이런 (ce)
-3	14056	합니다 (faire) | 우리 (nous) | 우리는 (nous sommes) | 위해서는 (Pour) | 나가야 (je dois sortir) | 해야 (devoir) | 이제 (maintenant) | 있는 (présent) | 되어야 (?) | 함께 (ensemble)
+3	14056	합니다 (faire) | 우리 (nous) | 우리는 (nous sommes) | 위해서는 (Pour) | 나가야 (je dois sortir) | 해야 (devoir) | 이제 (maintenant) | 있는 (présent) | 되어야 (Devrait être) | 함께 (ensemble)
 4	26680	있습니다 (il y a) | 우리 (nous) | 지금 (maintenant) | 새로운 (nouveau) | 세계 (monde) | 우리는 (nous sommes) | 위해 (pour) | 이제 (maintenant) | 많은 (beaucoup) | 되고 (devenir)
 5	17517	있는 (présent) | 것입니다 (volonté) | 우리 (nous) | 우리가 (nous) | 것은 (Le truc c'est) | 지금 (maintenant) | 하고 (faire) | 있습니다 (il y a) | 것이 (C'est) | 우리의 (notre)
 6	17279	힘찬 (fougueux) | 힘차게 (vivant) | 힘이 (force) | 힘을 (force) | 힘으로 (par la force) | 힘써 (travailler dur) | 힘든 (maladroit) | 힘과 (force et) | 희생을 (sacrifier) | 희생과 (des sacrifices et)
@@ -23,6 +23,6 @@ Topic_ID	Nb_Paragraphs	Top_Words
 10	55144	여러분의 (ton) | 오늘 (aujourd'hui) | 위해 (pour) | 나는 (Je suis) | 함께 (ensemble) | 바랍니다 (s'il te plaît) | 것을 (que) | 바입니다 (C'est un bar) | 위한 (pour) | 진심으로 (sincèrement)
 11	63311	감사합니다 (merci) | 대통령이승만박사담화집 (Collection de discours du président Dr Syngman Rhee) | 대통령 (président) | 그리고 (et) | 각하 (congédiement) | 공보실 (Bureau des affaires publiques) | 1953 (1953) | 공보처 (Bureau d'information publique) | 존경하는 (respectueux) | 1956 (1956)
 12	13466	힘찬 (fougueux) | 힘차게 (vivant) | 힘이 (force) | 힘을 (force) | 힘으로 (par la force) | 힘써 (travailler dur) | 힘든 (maladroit) | 힘과 (force et) | 희생을 (sacrifier) | 희생과 (des sacrifices et)
-13	13826	여러분 (tout le monde) | 귀빈 (VIP) | 존경하는 (respectueux) | 그리고 (et) | 내외 (Intérieur et extérieur) | 의원 (membre) | 동포 (compatriotes) | 사랑하는 (affectueux) | 자리에 (en place) | 내외귀빈 (invités de marque)
+13	13826	여러분 (tout le monde) | 귀빈 (VIP) | 존경하는 (respectueux) | 그리고 (et) | 내외 (Intérieur et extérieur) | 의원 (membre) | 동포 (compatriotes) | 사랑하는 (affectueux) | 자리에 (?) | 내외귀빈 (invités de marque)
 14	2762	친애하는 (cher) | 여러분 (tout le monde) | 졸업생 (diplômé) | 동포 (compatriotes) | 장병 (soldat) | 전국의 (partout dans le pays) | 그리고 (et) | 동지 (camarades) | 공무원 (agent public) | 경찰관 (policier)
 15	22821	것입니다 (volonté) | 나갈 (sortir) | 있을 (Il y aura) | 정부는 (Le gouvernement) | 더욱 (plus) | 위한 (pour) | 우리의 (notre) | 모든 (chaque) | 있도록 (de sorte que) | 위해 (pour)

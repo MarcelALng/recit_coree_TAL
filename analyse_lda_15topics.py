@@ -150,6 +150,48 @@ tsv_translated = "lda_15topics_results_translated.tsv"
 with open(tsv_translated, 'w', encoding='utf-8') as f:
     f.writelines(output_lines)
 
-print(f"✓ Traductions sauvegardées dans {tsv_translated}")
+# Plotting results with French translations
+print("\nGénération du graphique lda_topics.png avec labels en français...")
+import matplotlib.pyplot as plt
+
+# Configuration matplotlib
+plt.rcParams['font.family'] = 'DejaVu Sans'
+plt.rcParams['axes.unicode_minus'] = False
+
+n_topics = 15
+fig, axes = plt.subplots(3, 5, figsize=(20, 15))
+axes = axes.flatten()
+
+for topic_idx in range(n_topics):
+    topic = lda.components_[topic_idx]
+    top_indices = topic.argsort()[-10:][::-1]
+    top_words_ko = [vocab[i] for i in top_indices]
+    top_scores = [topic[i] for i in top_indices]
+    
+    # Translate labels to French for the plot
+    translated_labels = []
+    for word in top_words_ko:
+        try:
+            # We already have a translator object 'translator'
+            trans = translator.translate(word, src='ko', dest='fr').text
+            # Remove any non-ASCII characters to be safe with fonts
+            clean_trans = trans.encode('ascii', 'ignore').decode('ascii').strip()
+            if not clean_trans: clean_trans = "Terme"
+            translated_labels.append(clean_trans)
+        except:
+            translated_labels.append("???")
+            
+    axes[topic_idx].barh(range(len(translated_labels)), top_scores)
+    axes[topic_idx].set_yticks(range(len(translated_labels)))
+    axes[topic_idx].set_yticklabels(translated_labels)
+    axes[topic_idx].set_xlabel('Importance')
+    axes[topic_idx].set_title(f'Thème {topic_idx + 1}')
+    axes[topic_idx].invert_yaxis()
+
+plt.tight_layout()
+plt.savefig('lda_topics.png', dpi=150, bbox_inches='tight')
+print("✓ Graphique sauvegardé: lda_topics.png")
+
+print(f"✓ Traductions sauvées dans {tsv_translated}")
 print(f"✓ Temps d'exécution : {execution_time:.2f}s")
 print(f"✓ CPU : {cpu_percent:.1f}% | GPU : {gpu_usage:.1f}% | GPU Power : {gpu_power:.1f}W")

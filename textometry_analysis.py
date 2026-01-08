@@ -87,17 +87,33 @@ for idx in top_indices:
     print(f"  {word:15s} : {score:.4f}")
     tfidf_results.append({'word': word, 'tfidf_score': score})
 
-# Visualisation TF-IDF
-plt.figure(figsize=(12, 6))
-words = [feature_names[i] for i in top_indices[:15]]
+# Visualisation TF-IDF avec traductions
+print("\nGénération du graphique tfidf_analysis.png avec labels en français...")
+from googletrans import Translator
+translator = Translator()
+
+words_ko = [feature_names[i] for i in top_indices[:15]]
 scores = [tfidf_scores[i] for i in top_indices[:15]]
-plt.barh(range(len(words)), scores)
-plt.yticks(range(len(words)), words)
+
+translated_labels = []
+for word in words_ko:
+    try:
+        trans = translator.translate(word, src='ko', dest='fr').text
+        clean_trans = trans.encode('ascii', 'ignore').decode('ascii').strip()
+        if not clean_trans: clean_trans = "Terme"
+        translated_labels.append(clean_trans)
+    except:
+        translated_labels.append("???")
+
+plt.figure(figsize=(12, 6))
+plt.barh(range(len(translated_labels)), scores)
+plt.yticks(range(len(translated_labels)), translated_labels)
 plt.xlabel('TF-IDF Score')
-plt.title('Top 15 Mots par TF-IDF - Lee Seung Man')
+plt.title('Top 15 Mots par TF-IDF - Lee Seung Man (Traduit)')
+plt.gca().invert_yaxis()
 plt.tight_layout()
 plt.savefig('tfidf_analysis.png', dpi=150, bbox_inches='tight')
-print("\n💾 Graphique sauvegardé: tfidf_analysis.png")
+print("💾 Graphique sauvegardé: tfidf_analysis.png")
 
 # ========== 2. LDA TOPIC MODELING ==========
 print("\n" + "="*80)

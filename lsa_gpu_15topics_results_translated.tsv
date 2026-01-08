@@ -4,16 +4,16 @@ Nb_Discours	9984
 Nb_Presidents	12
 Nb_Paragraphs	345491
 Nb_Topics	15
-Execution_Time_Sec	8.71
+Execution_Time_Sec	11.63
 CPU_Usage_Percent	0.00
-Memory_Usage_Percent	10.01
-GPU_Usage_Percent	79.00
-GPU_Power_Watts	101.24
+Memory_Usage_Percent	9.89
+GPU_Usage_Percent	0.00
+GPU_Power_Watts	32.62
 
 Topic_ID	Nb_Paragraphs	Top_Words
-1	669	친애하는 (cher) | 국민 (personnes) | 여러분 (tout le monde) | 그리고 (et) | 전국의 (partout dans le pays) | 자리에 (en place) | 참석하신 (assisté) | 국회의원 (député) | 내외귀빈 (invités de marque) | 장병 (soldat)
+1	669	친애하는 (cher) | 국민 (personnes) | 여러분 (tout le monde) | 그리고 (et) | 전국의 (?) | 자리에 (en place) | 참석하신 (assisté) | 국회의원 (député) | 내외귀빈 (invités de marque) | 장병 (soldat)
 2	41950	하는 (faire) | 것은 (Le truc c'est) | 우리가 (nous) | 것이 (C'est) | 것을 (que) | 것이다 (volonté) | 하고 (faire) | 모든 (chaque) | 그러나 (cependant) | 이런 (ce)
-3	14056	합니다 (faire) | 우리 (nous) | 우리는 (nous sommes) | 위해서는 (Pour) | 나가야 (je dois sortir) | 해야 (devoir) | 이제 (maintenant) | 있는 (présent) | 되어야 (Devrait être) | 함께 (ensemble)
+3	14056	합니다 (faire) | 우리 (nous) | 우리는 (nous sommes) | 위해서는 (Pour) | 나가야 (je dois sortir) | 해야 (devoir) | 이제 (maintenant) | 있는 (présent) | 되어야 (?) | 함께 (ensemble)
 4	26680	있습니다 (il y a) | 우리 (nous) | 지금 (maintenant) | 새로운 (nouveau) | 세계 (monde) | 우리는 (nous sommes) | 위해 (pour) | 이제 (maintenant) | 많은 (beaucoup) | 되고 (devenir)
 5	17517	있는 (présent) | 것입니다 (volonté) | 우리 (nous) | 우리가 (nous) | 것은 (Le truc c'est) | 지금 (maintenant) | 하고 (faire) | 있습니다 (il y a) | 것이 (C'est) | 우리의 (notre)
 6	17279	힘찬 (fougueux) | 힘차게 (vivant) | 힘이 (force) | 힘을 (force) | 힘으로 (par la force) | 힘써 (travailler dur) | 힘든 (maladroit) | 힘과 (force et) | 희생을 (sacrifier) | 희생과 (des sacrifices et)

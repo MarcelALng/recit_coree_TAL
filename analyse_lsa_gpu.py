@@ -205,6 +205,52 @@ tsv_translated = "lsa_gpu_15topics_results_translated.tsv"
 with open(tsv_translated, 'w', encoding='utf-8') as f:
     f.writelines(output_lines)
 
-print(f"✓ Traductions sauvegardées dans {tsv_translated}")
+# Plotting results with French translations
+print("\nGénération du graphique lsa_components.png avec labels en français...")
+import matplotlib.pyplot as plt
+
+# Configuration matplotlib
+plt.rcParams['font.family'] = 'DejaVu Sans'
+plt.rcParams['axes.unicode_minus'] = False
+
+n_topics = 15
+fig, axes = plt.subplots(3, 5, figsize=(20, 15))
+axes = axes.flatten()
+
+for topic_idx in range(n_topics):
+    cluster_docs = [i for i, c in enumerate(clusters) if c == topic_idx]
+    if len(cluster_docs) == 0:
+        fig.delaxes(axes[topic_idx])
+        continue
+        
+    cluster_tfidf = tfidf_matrix[cluster_docs].mean(axis=0).A1
+    top_indices = cluster_tfidf.argsort()[-10:][::-1]
+    top_words_ko = [vocab[i] for i in top_indices]
+    top_scores = [cluster_tfidf[i] for i in top_indices]
+    
+    # Translate labels to French
+    translated_labels = []
+    for word in top_words_ko:
+        try:
+            # We already have a translator object 'translator'
+            trans = translator.translate(word, src='ko', dest='fr').text
+            clean_trans = trans.encode('ascii', 'ignore').decode('ascii').strip()
+            if not clean_trans: clean_trans = "Terme"
+            translated_labels.append(clean_trans)
+        except:
+            translated_labels.append("???")
+            
+    axes[topic_idx].barh(range(len(translated_labels)), top_scores)
+    axes[topic_idx].set_yticks(range(len(translated_labels)))
+    axes[topic_idx].set_yticklabels(translated_labels)
+    axes[topic_idx].set_xlabel('Poids')
+    axes[topic_idx].set_title(f'Composante LSA {topic_idx + 1}')
+    axes[topic_idx].invert_yaxis()
+
+plt.tight_layout()
+plt.savefig('lsa_components.png', dpi=150, bbox_inches='tight')
+print("✓ Graphique sauvegardé: lsa_components.png")
+
+print(f"✓ Traductions sauvées dans {tsv_translated}")
 print(f"✓ Temps d'exécution : {execution_time:.2f}s")
 print(f"✓ CPU : {cpu_percent:.1f}% | GPU : {gpu_usage:.1f}% | GPU Power : {gpu_power:.1f}W")

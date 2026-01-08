@@ -102,11 +102,30 @@ Le modèle LDA (15 thèmes) a identifié des clusters sémantiques cohérents. L
 \subsection{Comparaison LSA vs LDA}
 L'Analyse Sémantique Latente (LSA) a été testée en parallèle. Alors que LDA offre une meilleure interprétabilité des thèmes "humains", LSA s'est avérée plus efficace pour identifier les structures de co-occurrence de haut niveau à travers les paragraphes courts. L'utilisation de GPU via PyTorch a réduit le temps de traitement de 40\% par rapport aux implémentations CPU classiques (scikit-learn).
 
+\subsection{Posture Énonciative et Leadership}
+L'analyse des formes de l'énonciation, notamment via les pronoms de la première personne, révèle un contraste marqué entre les périodes. Les présidents fondateurs (Lee Seung-man, Park Chung-hee) présentent une fréquence élevée du "Nous" (\textit{uri}), dépassant les 11 occurrences pour 1000 mots, ce qui traduit une rhétorique de mobilisation collective et d'effacement de l'individu derrière l'unité nationale. 
+
+À l'inverse, les présidences récentes comme celle de Moon Jae-in montrent une chute de ce "Nous" (5,3 pour 1000) au profit d'un discours plus technique et institutionnel. On note également une stabilité du ratio d'action (verbes d'action \textit{VV} vs descriptifs \textit{VA}), maintenu autour de 84\%, suggérant que malgré l'évolution thématique, la finalité "performative" du discours présidentiel reste la norme.
+
+\section{Étude Diachronique et Évolution des Concepts}
+L'hybridation des méthodes TXM et LDA a permis de tracer l'évolution de thématiques clés sur sept décennies (voir Fig. \ref{fig:trends} en annexe).
+
+\subsection{Heatmap des Éres Politiques}
+La heatmap des spécificités (Fig. \ref{fig:heatmap}) met en lumière des blocs sémantiques homogènes :
+\begin{itemize}
+    \item \textbf{1948-1979} : Domination des thèmes de \textit{Construction}, \textit{Modernisation} et \textit{Autonomie}.
+    \item \textbf{1998-2003} : Rupture sémantique forte avec l'émergence des termes \textit{FMI}, \textit{Réforme} et \textit{Soleil} (Politique du Rayon de Soleil).
+    \item \textbf{2017-2022} : Mutation vers un discours de gestion technico-sanitaire (\textit{Corona}, \textit{Innovation}, \textit{Emploi}).
+\end{itemize}
+
+\subsection{Trajectoires Temporelles}
+Le suivi de concepts comme \textit{Démocratie} montre une ascension constante à partir de la présidence de Roh Tae-woo (1988), premier président élu au suffrage direct après le régime militaire, tandis que le concept d'\textit{Unification} connaît des pics cycliques liés aux sommets inter-coréens, sans jamais disparaître du socle républicain.
+
 \section{Discussion}
-L'hybridation des méthodes TXM et LDA apporte une vision bi-dimensionnelle du discours. TXM excelle dans l'identification des ruptures (ce qui rend un président unique), tandis que LDA capture les continuités thématiques (ce sur quoi tout le monde parle). L'analyse montre que le discours politique coréen s'est "professionnalisé" : le vocabulaire est passé de termes très émotionnels et patriotiques sous Lee Seung-man à un vocabulaire technique d'expert-comptable ou de gestionnaire de crise à partir des années 2000.
+L'hybridation des méthodes TXM et LDA apporte une vision bi-dimensionnelle du discours. TXM excelle dans l'identification des ruptures (ce qui rend un président unique), tandis que LDA capture les continuités thématiques. L'analyse montre passée d'un discours tourné vers la \textit{construction de la patrie} émotionnelle et patriotique à un vocabulaire technique d'expert ou de gestionnaire de crise. La posture narrative s'est également déplacée d'une "voix de la nation" vers une "parole de l'État".
 
 \section{Conclusion}
-Cette recherche valide l'efficacité des chaînes de traitement TAL sur le coréen pour l'analyse diachronique de longue durée. Le passage par un format XML normé pour TXM assure une pérennité des données et permet des allers-retours entre statistiques globales et lecture fine (concordances). Les futurs travaux pourraient explorer l'évolution du sentiment associé à ces thématiques pour nuancer la compréhension de la rhétorique politique sud-coréenne.
+Cette recherche valide l'efficacité des chaînes de traitement TAL sur le coréen pour l'analyse diachronique. Le passage par un format XML-TEI enrichi assure une pérennité des données et permet des allers-retours entre statistiques globales et lecture fine. Les futurs travaux pourraient explorer l'évolution du sentiment associé à ces thématiques pour nuancer la compréhension de la rhétorique politique sud-coréenne.
 
 \bibliographystyle{acl_natbib}
 \begin{thebibliography}{10}
@@ -133,6 +152,20 @@ Cette recherche valide l'efficacité des chaînes de traitement TAL sur le coré
     \includegraphics[width=0.8\textwidth]{lsa_components.png}
     \caption{Projection des composantes sémantiques via LSA.}
     \label{fig:lsa}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\textwidth]{lexical_heatmap.png}
+    \caption{Carte de chaleur des spécificités lexicales par présidence (Top 50 termes traduits).}
+    \label{fig:heatmap}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{temporal_trends.png}
+    \caption{Évolution temporelle des concepts clés (fréquence relative pour 10 000 mots).}
+    \label{fig:trends}
 \end{figure}
 
 \begin{figure}[h]

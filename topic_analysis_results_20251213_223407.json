@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-12-13T22:34:07.114394",
+  "total_time": 0.12619423866271973,
+  "successful": 0,
+  "failed": 3,
+  "results": [
+    {
+      "script": "analyse_lda_15topics.py",
+      "description": "LDA Topic Modeling (15 topics) - CPU",
+      "success": false,
+      "execution_time": 0.04794025421142578,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/Sata750gb/recit_coree_gtxcachy/analyse_lda_15topics.py\", line 5, in <module>\n    from sklearn.feature_extraction.text import CountVectorizer\nModuleNotFoundError: No module named 'sklearn'\n"
+    },
+    {
+      "script": "analyse_lsa_cpu.py",
+      "description": "LSA + K-means (15 topics) - CPU",
+      "success": false,
+      "execution_time": 0.03912210464477539,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/Sata750gb/recit_coree_gtxcachy/analyse_lsa_cpu.py\", line 5, in <module>\n    from sklearn.feature_extraction.text import TfidfVectorizer\nModuleNotFoundError: No module named 'sklearn'\n"
+    },
+    {
+      "script": "analyse_lsa_gpu.py",
+      "description": "LSA + K-means (15 topics) - GPU",
+      "success": false,
+      "execution_time": 0.038985490798950195,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/Sata750gb/recit_coree_gtxcachy/analyse_lsa_gpu.py\", line 5, in <module>\n    import torch\nModuleNotFoundError: No module named 'torch'\n"
+    }
+  ]
+}

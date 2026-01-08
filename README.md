@@ -1,338 +1,61 @@
-# Presidential Speeches Scraping Automation
+# Analyse Statistique et Sémantique des Discours Présidentiels Sud-Coréens (1948-2022)
 
-Automated pipeline to scrape Korean presidential speeches from the Presidential Archives and push results to GitHub.
+**Auteur :** Marcel Nguyen  
+**Domaine :** TAL R&D (Master 2)  
+**Mots-clés :** Analyse de discours, Textométrie, Coréen, LDA/LSA, Spécificité de Lafon, Corée du Sud.
 
-## 🎯 Features
-
-- **Automated Execution**: Run all scraping scripts sequentially with a single command
-- **Resume Capability**: Automatically resume from where it stopped if interrupted
-- **Error Handling**: Retry failed scripts and continue with remaining ones
-- **Git Integration**: Automatically commit and push results to GitHub
-- **Detailed Logging**: Track execution progress and errors
-- **Configurable**: Easy configuration via JSON file
-
-## 📋 Prerequisites
-
-- Python 3.7+
-- Git installed
-- Virtual environment activated
-- GitHub repository (optional, for auto-push)
-
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### 2. Configure
-
-Edit `config.json` to set your GitHub repository URL:
-
-```json
-{
-  "github": {
-    "repository_url": "https://github.com/your-username/your-repo.git",
-    "branch": "main"
-  }
-}
-```
-
-### 3. Run All Scrapers
-
-```bash
-python run_all_scrapers.py
-```
-
-### 4. Push to GitHub
-
-```bash
-python git_push_results.py
-```
-
-## 📖 Detailed Usage
-
-### Running Scrapers
-
-**Run all scripts:**
-```bash
-python run_all_scrapers.py
-```
-
-**Dry run (see what would be executed):**
-```bash
-python run_all_scrapers.py --dry-run
-```
-
-**Reset state and run from scratch:**
-```bash
-python run_all_scrapers.py --reset
-```
-
-**Custom configuration file:**
-```bash
-python run_all_scrapers.py --config my_config.json
-```
-
-### Git Operations
-
-**Commit and push results:**
-```bash
-python git_push_results.py
-```
-
-**Dry run (see what would be committed):**
-```bash
-python git_push_results.py --dry-run
-```
-
-**Custom configuration:**
-```bash
-python git_push_results.py --config my_config.json
-```
-
-### TXM Export & Analysis
- 
- **1. Export all speeches to TXM format (XML-TEI):**
- ```bash
- source venv/bin/activate
- python export_to_txm.py
- ```
- 
- **2. Run Linguistic Analysis on XML:**
- ```bash
- python analyze_txm_xml.py
- ```
- This script generates global statistics (tokens, sentences, TTR) per president.
-
- **3. Advanced Specificity Analysis (Thematic Signatures):**
- ```bash
- python analyze_txm_specificity.py
- ```
- Calculates Lafon's specificity index to identify unique keywords per president.
-
- **4. Cross-Presidential Comparison:**
- ```bash
- python compare_presidents_txm.py
- ```
- Identifies stable vocabulary (commonalities) and high-variance terms (differences) across the 12 presidents.
-
- **5. UTILS: Bridging TXM back to Python:**
- ```bash
- python read_txm_csv.py --file my_txm_export.csv
- ```
- Utility to load TXM CSV exports (lexicons, specificities) into Pandas DataFrames.
-
- **6. Simple Concordance (KWIC):**
- ```bash
- python simple_concordance.py --query "평화"
- ```
- Quick keyword-in-context search directly on JSON files.
-
-## 📝 Research Report
-
-A complete research report synthesizing the results is available in LaTeX format:
-- `rapport_presidentiel_coree.tex`: Academic paper (ACL format) documenting the methodology, statistics, and findings of the study.
-
- ## ⚙️ Configuration
-
-The `config.json` file controls all aspects of the automation:
-
-```json
-{
-  "github": {
-    "repository_url": "",           // Your GitHub repo URL
-    "branch": "main",                // Target branch
-    "commit_message_template": "Update presidential speeches data - {timestamp}",
-    "auto_push": true                // Auto-push after commit
-  },
-  "presidents": [                    // List of presidents to scrape
-    "Yun_Bo_Seon",
-    "Park_Chung_Hee",
-    // ... more presidents
-  ],
-  "scraping": {
-    "retry_on_failure": true,        // Retry failed scripts
-    "max_retries": 3,                // Max retry attempts
-    "delay_between_scripts": 2,      // Seconds between scripts
-    "save_logs": true,               // Save logs to file
-    "log_file": "scraping_log.txt"   // Log file path
-  },
-  "execution": {
-    "run_scrap1": true,              // Run link collection scripts
-    "run_scrap2": true,              // Run text extraction scripts
-    "resume_capability": true,       // Enable resume on interrupt
-    "state_file": ".scraping_state.json"  // State file path
-  }
-}
-```
-
-## 📁 Output Files
- 
- ### JSON Data Files
- - `president_links_*.json` - Article links for each president
- - `president_texts_*.json` - Full text content for each president
- 
- ### TXM Export (XML)
- - `txm_export/*.xml` - Linguistically annotated XML files (Kkma PoS tagging) ready for import into TXM.
- ### Analysis Results
- - `president_comparison_results.csv` - Summary of statistical commonalities and differences across presidents.
- - `rapport_presidentiel_coree.tex` - Final research report (LaTeX).
- 
-  ### Log Files
-- `scraping_log.txt` - Detailed execution log
-- `scraping_summary_*.json` - Execution summary with statistics
-- `.scraping_state.json` - Resume state (auto-generated)
-
-## 🔧 Git Authentication
-
-### Option 1: SSH Keys (Recommended)
-
-```bash
-# Generate SSH key
-ssh-keygen -t ed25519 -C "your_email@example.com"
-
-# Add to GitHub: Settings > SSH and GPG keys
-cat ~/.ssh/id_ed25519.pub
-
-# Test connection
-ssh -T git@github.com
-
-# Use SSH URL in config.json
-"repository_url": "git@github.com:username/repo.git"
-```
-
-### Option 2: Personal Access Token
-
-```bash
-# Create token: GitHub > Settings > Developer settings > Personal access tokens
-# Use HTTPS URL with token in config.json
-"repository_url": "https://github.com/username/repo.git"
-
-# Configure Git to cache credentials
-git config --global credential.helper cache
-```
-
-### Option 3: GitHub CLI
-
-```bash
-# Install and authenticate
-gh auth login
-
-# Use HTTPS URL in config.json
-"repository_url": "https://github.com/username/repo.git"
-```
-
-## 🔄 Complete Workflow
-
-Run everything with one command:
-
-```bash
-# Run all scrapers and push to GitHub
-python run_all_scrapers.py && python git_push_results.py
-```
-
-Or create a shell script `run_pipeline.sh`:
-
-```bash
-#!/bin/bash
-set -e
-
-echo "🚀 Starting scraping pipeline..."
-source venv/bin/activate
-
-echo "📥 Running scrapers..."
-python run_all_scrapers.py
-
-if [ $? -eq 0 ]; then
-    echo "📤 Pushing to GitHub..."
-    python git_push_results.py
-    echo "✅ Pipeline completed successfully!"
-else
-    echo "❌ Scraping failed. Skipping Git push."
-    exit 1
-fi
-```
-
-Make it executable:
-```bash
-chmod +x run_pipeline.sh
-./run_pipeline.sh
-```
-
-## 📊 Execution Summary
-
-After running, check the summary JSON file for detailed statistics:
-
-```json
-{
-  "start_time": "2025-12-08T22:00:00",
-  "end_time": "2025-12-08T22:30:00",
-  "scripts_executed": [
-    {
-      "script": "scrap1_Park_Chung_Hee.py",
-      "status": "success",
-      "execution_time": 45.23
-    }
-  ],
-  "scripts_failed": [],
-  "scripts_skipped": []
-}
-```
-
-## 🐛 Troubleshooting
-
-### Scripts fail with import errors
-```bash
-# Ensure virtual environment is activated
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### Git push fails with authentication error
-```bash
-# Check remote URL
-git remote -v
-
-# Test SSH connection
-ssh -T git@github.com
-
-# Or configure credentials for HTTPS
-git config --global credential.helper store
-```
-
-### Resume not working
-```bash
-# Check state file exists
-cat .scraping_state.json
-
-# Reset state if corrupted
-python run_all_scrapers.py --reset
-```
-
-## 📝 Presidents Covered
-
-1. Lee Seung-man (이승만) - 1948-1960
-2. Yun Bo-seon (윤보선) - 1960-1962
-3. Park Chung-hee (박정희) - 1963-1979
-4. Choi Kyu-hah (최규하) - 1979-1980
-5. Chun Doo-hwan (전두환) - 1980-1988
-6. Roh Tae-woo (노태우) - 1988-1993
-7. Kim Young-sam (김영삼) - 1993-1998
-8. Kim Dae-jung (김대중) - 1998-2003
-9. Roh Moo-hyun (노무현) - 2003-2008
-10. Lee Myung-bak (이명박) - 2008-2013
-11. Park Geun-hye (박근혜) - 2013-2017
-12. Moon Jae-in (문재인) - 2017-2022
-
-**Total: 12 presidents**
-
-## 📄 License
-
-This project is for educational and research purposes.
-
-## 🤝 Contributing
-
-Feel free to submit issues or pull requests to improve the automation pipeline.
+---
+
+## 📄 Résumé / Abstract
+Cet article présente une analyse textométrique et thématique exhaustive du corpus des discours présidentiels de la Corée du Sud, couvrant la période de 1948 à 2022. À travers l'utilisation d'outils de textométrie (TXM) et de modèles de thématiques latentes (LDA, LSA), nous explorons l'évolution du lexique politique sur douze mandats présidentiels. Nous mettons en évidence une stabilité remarquable du vocabulaire institutionnel contrastant avec des ruptures thématiques fortes liées aux crises historiques et sanitaires. Nos résultats montrent que si des termes comme *Gouvernement* ou *Nécessité* constituent le socle invariant du discours, des signatures spécifiques comme la *Crise du FMI* ou la pandémie de *COVID-19* permettent une classification précise des périodes politiques.
+
+---
+
+## 📊 Résultats Visuels
+
+### 1. Carte de Chaleur des Spécificités (Heatmap)
+Visualisation des ruptures et continuités thématiques à travers 70 ans d'histoire. Chaque bloc de couleur représente la spécificité (Indice de Lafon) d'un concept par rapport à un mandat présidentiel.
+![Heatmap des thématiques](lexical_heatmap.png)
+
+### 2. Évolution des Concepts Clés
+Suivi diachronique des fréquences relatives (pour 10 000 mots) des piliers de la rhétorique sud-coréenne : *Démocratie*, *Unification*, *Économie*, *Liberté* et *Paix*.
+![Tendances temporelles](temporal_trends.png)
+
+---
+
+## 🔬 Analyse des Résultats
+
+### Posture Énonciative et Leadership
+L'analyse des formes de l'énonciation révèle un contraste marqué entre les périodes. Les présidents fondateurs présentent une fréquence élevée du **"Nous"** (*uri*), traduisant une rhétorique de mobilisation collective. À l'inverse, les présidences récentes (Moon Jae-in) montrent une chute de ce "Nous" au profit d'un discours plus technique et institutionnel, tout en maintenant un ratio performatif (verbes d'action) stable de 84%.
+
+### Modélisation Thématique Latente (LDA & LSA)
+Nous avons utilisé des modèles probabilistes pour extraire les thématiques indépendantes des choix lexicaux bruts. Les thèmes de *Sécurité Nationale* et de *Relations Internationales* apparaissent comme des invariants structurels du discours.
+
+| Thèmes LDA (15 Clusters) | Projection des Composantes LSA |
+|:---:|:---:|
+| ![LDA Topics](lda_topics.png) | ![LSA Components](lsa_components.png) |
+
+---
+
+## ⚙️ Documentation Technique
+
+### Architecture du Corpus
+- **Volume** : 9 984 discours, 345 491 paragraphes.
+- **Analyseur** : Kkma (KoNLPy) pour une segmentation morphosyntaxique fine (PoS tagging).
+- **Format** : Export XML-TEI pour compatibilité TXM.
+
+### Utilisation des Scripts
+1. **Prétraitement** : `source venv/bin/activate && python export_to_txm.py`
+2. **Analyse de Spécificité** : `python analyze_txm_specificity.py`
+3. **Topic Modeling** : `python analyse_lda_15topics.py` (CPU) ou `python analyse_lsa_gpu.py` (GPU)
+4. **Visualisation** : `python generate_lexical_heatmap.py` et `python analyze_temporal_trends.py`
+
+---
+
+## 📚 Références
+- Lafon, P. (1980). *Sur la variabilité de la fréquence des formes dans un corpus*. Mots.
+- Blei, D. M. (2003). *Latent Dirichlet allocation*. JMLR.
+- Park, E. L. (2014). *KoNLPy: Korean natural language processing in Python*. ACL.
+
+---
+*Ce projet a été réalisé dans le cadre d'un projet de recherche en TAL R&D.*

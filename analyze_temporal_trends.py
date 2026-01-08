@@ -11,12 +11,19 @@ def analyze_temporal_trends(xml_dir, target_words, output_img):
     # Mapping Korean target words to their French labels
     # target_words = {'민주주의': 'Démocratie', ...}
     
-    for filename in sorted(os.listdir(xml_dir)):
-        if not filename.endswith('.xml'):
+    PRESIDENTS_CHRONO = [
+        'Lee_Seung_Man', 'Yun_Bo_Seon', 'Park_Chung_Hee', 'Choi_Kyu_Hah',
+        'Chun_Doo_Hwan', 'Roh_Tae_Woo', 'Kim_Young_Sam', 'Kim_Dae_Jung',
+        'Roh_Moo_Hyun', 'Lee_Myung_Bak', 'Park_Geun_Hye', 'Moon_Jae_In'
+    ]
+    
+    for filename_base in PRESIDENTS_CHRONO:
+        filename = f"{filename_base}.xml"
+        path = os.path.join(xml_dir, filename)
+        if not os.path.exists(path):
             continue
             
-        path = os.path.join(xml_dir, filename)
-        pres_name = filename.replace('.xml', '').replace('_', ' ')
+        pres_name = filename_base.replace('_', ' ')
         presidents.append(pres_name)
         
         tree = ET.parse(path)
